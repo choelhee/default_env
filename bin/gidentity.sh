@@ -1,7 +1,5 @@
 
 
-GSQL="gsqlnet test test"
-
 
 $GSQL --no-prompt <<EOF
 

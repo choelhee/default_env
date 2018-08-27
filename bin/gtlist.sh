@@ -1,7 +1,5 @@
 
 
-GSQL="gsqlnet test test"
-
 STR=`echo $1 | tr a-z A-Z`
 
 $GSQL --no-prompt <<EOF

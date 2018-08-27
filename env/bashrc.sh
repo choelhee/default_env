@@ -46,6 +46,12 @@ export CLASSPATH=$CLASSPATH:$GOLDILOCKS_HOME/lib
 export GOLDILOCKS_SHARED_MEMORY_STATIC_KEY=542353
 export PATH=$GOLDILOCKS_HOME/bin:$PATH
 
+# for database utillity env-variable
+export GSQL_UID="test"
+export GSQL_PWD="test"
+export GSQL="gsqlnet $GSQL_UID $GSQL_PWD "
+
+
 # for jdbc compile
 export JAVA5=$HOME/jdk1.5.0_22
 export JAVA_HOME=$HOME/jdk1.6.0_27
