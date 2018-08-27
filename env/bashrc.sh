@@ -8,7 +8,11 @@ fi
 export PATH=.:$PATH
 
 set -o vi
-shopt -s direxpand
+
+# for stop escaping when during tab key
+if [ ${BASH_VERSION:0:1} = 4 ]; then
+    shopt -s direxpand
+fi
 export SVN_EDITOR=vim
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/lib64
 
