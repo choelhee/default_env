@@ -1,5 +1,4 @@
 
-
 # path , etc
 CHLEE_DIR=$HOME/.chlee
 if [ -d "$CHLEE_DIR" ]; then
