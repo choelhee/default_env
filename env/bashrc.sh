@@ -13,13 +13,13 @@ set -o vi
 if [ ${BASH_VERSION:0:1} = 4 ]; then
     shopt -s direxpand
 fi
+
 export SVN_EDITOR=vim
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/lib64
 
 ulimit -c unlimited
 
 # alias
-# ALIAS
 alias gl='gsql test test '
 alias gls='gsql sys gliese --as sysdba '
 
