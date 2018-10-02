@@ -1,2 +1,2 @@
 
-find `pwd` -type f -name \"*.[chyl]\" | etags -o TAGS
+find . -type f -name "*.[chyl]" -print | xargs etags -o TAGS
