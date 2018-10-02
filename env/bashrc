@@ -12,8 +12,11 @@ export PATH=.:$PATH
 set -o vi
 
 # for stop escaping when during tab key
-if [ ${BASH_VERSION:0:1} = 4 ]; then
-    shopt -s direxpand
+if [ ${SHELL} = '/bin/bash' ]; then
+	if [ ${BASH_VERSION:0:1} = 4 ]; then
+
+		shopt -s direxpand
+	fi
 fi
 
 export SVN_EDITOR=vim
@@ -52,23 +55,23 @@ export PATH=$GOLDILOCKS_HOME/bin:$PATH
 
 # for database utillity env-variable
 if [ -f "gsql" ]; then
-	GSQL=gsql
+	GSQLBIN=gsql
 else
-	GSQL=gsqlnet	
+	GSQLBIN=gsqlnet	
 fi
 
-alias gl='$GSQL test test '
-alias gls='$GSQL  sys gliese --as sysdba '
+alias gl='$GSQLBIN   test test '
+alias gls='$GSQLBIN  sys gliese --as sysdba '
 
 export GSQL_UID="test"
 export GSQL_PWD="test"
-export GSQL="gsqlnet $GSQL_UID $GSQL_PWD "
+export GSQL="$GSQLBIN $GSQL_UID $GSQL_PWD "
 
 
 # for jdbc compile
 
 if [ $OSTYPE = "Darwin" ]; then
-export JAVA_HOME=`/usr/libexec/java_home -v 1.7*`
+export JAVA_HOME=`/usr/libexec/java_home -v 1.7`
 else
 export JAVA_HOME=$HOME/jdk1.6.0_27
 export JAVA5=$HOME/jdk1.5.0_22

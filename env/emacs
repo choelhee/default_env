@@ -1,0 +1,168 @@
+;;;;; choelhee's emacs conf
+
+;;; MELPA, MARMALADE
+(require 'package)
+(add-to-list 'package-archives '("marmalade" . "http://marmalade-repo.org/packages/"))
+(add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/"))
+(package-initialize)
+
+;;; change meta to command
+(setq mac-option-key-is-meta nil
+	  mac-command-key-is-meta t
+	  mac-command-modifier 'meta
+	  mac-option-modifier 'super
+)
+
+;;; MENU BAR
+;;; (menu-bar-mode -1)
+
+;;; NO SPLASH
+(setq inhibit-startup-message t)
+
+;;; SCROLL
+(defun up-slightly () (interactive) (scroll-up 5))
+(defun down-slightly () (interactive) (scroll-down 5))
+(global-set-key [mouse-4] 'down-slightly)
+(global-set-key [mouse-5] 'up-slightly)
+
+(defun up-one () (interactive) (scroll-up 1))
+(defun down-one () (interactive) (scroll-down 1))
+(global-set-key [S-mouse-4] 'down-one)
+(global-set-key [S-mouse-5] 'up-one)
+
+
+(defun up-a-lot () (interactive) (scroll-up))
+(defun down-a-lot () (interactive) (scroll-down))
+(global-set-key [C-mouse-4] 'down-a-lot)
+(global-set-key [C-mouse-5] 'up-a-lot)
+
+;;; THEME
+(load-theme 'spacemacs-dark t)
+
+;;; TAGS
+(define-key global-map "\M-*" 'pop-tag-mark)
+
+;;; TAB
+(setq tab-stop-list '(4 8 12 16 20 24 28 32 36 40 44 48 52 56 60 64 68 72 76 80 84 88 92 96 100))
+(setq-default indent-tabs-mode nil)
+
+;;; LINE WRAP
+(setq truncate-partial-width-windows nil)
+
+;;; DISPLAY
+;;; (global-font-lock-mode 1 t)
+;;; (transient-mark-mode t)
+;;; (setq font-lock-maximum-decoration t)
+(show-paren-mode t)
+(column-number-mode 1)
+(global-linum-mode 1)
+
+;;;
+;;; GLOBAL KEY MAP
+(define-key global-map [C-f1] 'man)      ; help
+(define-key global-map [f2] 'grep)      ;
+(define-key global-map [f4] 'query-replace)  ;
+(define-key global-map [f5] 'goto-line)      ;
+(define-key global-map [f6] 'other-window) ;
+(define-key global-map [f7] 'previous-error)      ; (C-x `)
+(define-key global-map [f8] 'next-error)      ; (C-x `)
+
+(define-key global-map [f9] 'call-last-kbd-macro)      ; macro
+(define-key global-map [C-f10] 'compile)      ;
+(define-key global-map [f10] 'shell)      ;
+(define-key global-map [C-f12] 'indent-region)      ;
+
+;;; indent-region style
+(setq c-default-style "linux")
+
+;;; offset
+(setq c-basic-offset 4)
+
+;;; use space instead of tabs
+(setq-default indent-tabs-mode nil)
+
+;;; AUTO MODE
+(setq auto-mode-alist (append '(("\.outline$" . outline-mode)) auto-mode-alist))
+
+(cond
+ ((string-match "darwin" system-configuration)
+  (progn
+    (setq auto-mode-alist (append '(("\.h$" . objc-mode)) auto-mode-alist))
+    ))
+ (t
+  (progn
+    (setq auto-mode-alist (append '(("\.h$" . c++-mode)) auto-mode-alist))
+    (setq auto-mode-alist (append '(("\.lst$" . sql-mode)) auto-mode-alist))
+    (setq auto-mode-alist (append '(("\.out$" . sql-mode)) auto-mode-alist))
+    (setq auto-mode-alist (append '(("\.i$" . c++-mode)) auto-mode-alist))
+    (setq auto-mode-alist (append '(("\.l$" . c++-mode)) auto-mode-alist))
+    (setq auto-mode-alist (append '(("\.y$" . c++-mode)) auto-mode-alist))
+    (setq auto-mode-alist (append '(("\.sc$" . c++-mode)) auto-mode-alist))
+    (setq auto-mode-alist (append '(("\.sql$" . sql-mode)) auto-mode-alist))
+    (setq auto-mode-alist (append '(("\.sh$" . shell-script-mode)) auto-mode-alist))
+    ))
+ )
+
+;;; DISABLE RING BELL
+(defun my-dummy-ring-bell-function () nil)
+(setq ring-bell-function 'my-dummy-ring-bell-function)
+
+
+;;; ETAGS
+;(defun create-tags (dir-name)
+;     "Create tags file."
+;     (interactive "DDirectory: ")
+;     (eshell-command
+;	  (format "find -L %s -type f -name '.[chyl]' -print | grep -v \"Gliese/home\" | xargs etags --append " dir-name)))
+
+(defun create-tags (dir-name)
+ "Create tags file."
+ (interactive "DDirectory: ")
+ (eshell-command 
+  (format "find %s -type f -name \"*.[ch]\" | etags -" dir-name)))
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(package-selected-packages
+   (quote
+    (auto-complete-clang-async auto-complete-clang auto-complete-c-headers spacemacs-theme))))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
+
+;;; AUTO_COMPLETE( c headers )
+;;; gcc default include path ( $ echo | gcc -v -x c   -E - )
+;;; g++ default include path ( $ echo | gcc -v -x c++ -E - )
+
+;; start auto-complete
+(require 'auto-complete)
+(defun my:ac-c-headers-init()
+ (require 'auto-complete-c-headers)
+ (add-to-list 'ac-sources 'ac-source-c-headers)
+ (setq achead:include-directories
+      (append '("/usr/local/include"
+                "/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"
+                "/Library/Developer/CommandLineTools/usr/include"
+                "/usr/include")
+              achead:include-directories)))
+
+(add-hook 'c++-mode-hook 'my:ac-c-headers-init)
+(add-hook 'c-mode-hook 'my:ac-c-headers-init)
+
+;; auto-complete 메뉴가 나타나는 시간을 설정합니다.
+(setq ac-auto-show-menu 0.2)
+(setq ac-delay 0.2)
+;; auto-complete 도움말(함수 설명)이 나타나는 시간을 설정합니다.
+(setq ac-quick-help-delay 3)
+;; auto-complete 메뉴 높이를 설정합니다. (줄 수)
+(setq ac-menu-height 9)
+(setq ac-auto-start t)
+(setq ac-show-menu-immediately-on-auto-complete t)
+;; 모든 모드에서 auto-complete-mode를 사용합니다.
+(global-auto-complete-mode 1)
+
