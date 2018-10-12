@@ -1,0 +1,15 @@
+#!/bin/sh
+
+export LANG=ko_KR.UTF-8
+
+export GTK_IM_MODULE=xim
+export XMODIFIERS="@im=nabi"
+export HANGUL_KEYBOARD_TYPE=2
+
+echo "Start Hangul IM (nabi) .."
+nohup nabi &
+sleep 1
+
+# cd ~/workspace/trunk
+# source SetEnv.sh_debug
+# ~/eclipse/eclipse &

@@ -1,0 +1,52 @@
+#!/bin/sh
+#
+# This script will be executed *after* all the other init scripts.
+# You can put your own initialization stuff in here if you don't
+# want to do the full Sys V style init stuff.
+
+touch /var/lock/subsys/local
+
+########################################
+# onmir perf
+########################################
+
+# perf
+echo 0 > /proc/sys/kernel/perf_event_paranoid
+echo 0 > /proc/sys/kernel/kptr_restrict
+
+# time
+echo 2 > /proc/sys/kernel/vsyscall64
+
+# vm
+echo 0 > /proc/sys/vm/swappiness
+# vm ( filecache )
+echo 10000 > /proc/sys/vm/vfs_cache_pressure
+
+# disk IO
+# echo "noop" > /sys/block/sdb/queue/scheduler
+
+# net
+echo 1 > /proc/sys/net/ipv4/tcp_low_latency
+
+# altibase
+#echo 2147483648 > /proc/sys/kernel/shmmax
+#echo 4096 > /proc/sys/kernel/shmmni
+#echo 1024 32000 1024 5026 > /proc/sys/kernel/sem
+#echo 30 > /proc/sys/vm/swappiness
+
+# service
+service acpid stop
+service irqbalance stop
+service iptables stop
+service ip6tables stop
+
+# sundb
+# echo 34359738368 > /proc/sys/kernel/shmmax
+# echo 8388608 > /proc/sys/kernel/shmall
+# echo 4096 > /proc/sys/kernel/shmmni
+# echo 250 32000 100 128 /proc/sys/kernel/sem
+
+# THP - oracle
+# http://oracle-base.com/articles/linux/configuring-huge-pages-for-oracle-on-linux-64.php
+# echo never > /sys/kernel/mm/transparent_hugepage/enabled
+# echo never > /sys/kernel/mm/transparent_hugepage/defrag

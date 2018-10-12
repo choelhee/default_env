@@ -1,0 +1,5 @@
+
+
+gsqlnet sys gliese --as sysdba <<EOF
+\cshutdown
+EOF

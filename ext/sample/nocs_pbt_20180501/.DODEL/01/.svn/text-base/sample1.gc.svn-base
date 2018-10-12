@@ -1,0 +1,173 @@
+/*
+ * sample1.gc
+ *
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
+
+EXEC SQL INCLUDE SQLCA;
+
+#define  SUCCESS  0
+#define  FAILURE  -1
+
+#define  PRINT_SQL_ERROR(aMsg)                                      \
+    {                                                               \
+        printf("\n");                                               \
+        printf(aMsg);                                               \
+        printf("\nSQLCODE : %d\nSQLSTATE : %s\nERROR MSG : %s\n",   \
+               sqlca.sqlcode,                                       \
+               SQLSTATE,                                            \
+               sqlca.sqlerrm.sqlerrmc );                            \
+    }
+
+int Connect(char *aHostInfo, char *aUserID, char *sPassword);
+
+int main(int argc, char **argv)
+{
+    EXEC SQL BEGIN DECLARE SECTION;
+    char strDbUsgStrtDtm [ 9 ]; 
+    char strDbUseTrgtNo  [ 5 ]; 
+    char strDbSvcMgmtNo [ 8 ]; 
+
+    char a [11] ;
+    char b [15] ;
+    char c [15] ;
+    char d [15] ; 
+    char e [11] ;
+    char f [11] ;
+
+
+  
+    EXEC SQL END DECLARE SECTION;
+
+    printf("Connect GOLDILOCKS ...\n");
+    if(Connect("DSN=GOLDILOCKS", "test", "test") != SUCCESS)
+    {
+        goto fail_exit;
+    }
+    
+    strcpy ( strDbUsgStrtDtm , "20180501");
+    strcpy ( strDbUseTrgtNo , "0501");
+    strcpy ( strDbSvcMgmtNo , "mgmt_no");
+
+    EXEC SQL DECLARE C1 CURSOR FOR  
+        SELECT  P.PROD_ID,
+                P.PROD_OFFER_TYP,
+                P.RECURRING_CHRG,
+                P.EFF_DT,
+                P.PROD_SEQ_NO,
+                NVL(C.CORR_ID, ' ')
+        FROM    (
+                    SELECT  /*+ ORDERING(B,A) USE_NL(B,A) INDEX(B,TOC_PROD_PK) */
+                            A.PROD_ID,
+                            A.PROD_OFFER_TYP,
+                            A.RECURRING_CHRG,
+                            B.EFF_DT,
+                            B.PROD_SEQ_NO
+                    FROM    TOP_PROD A,
+                            TOC_PROD B
+                    WHERE   B.SVC_MGMT_NO = :strDbSvcMgmtNo
+                    AND     B.EFF_DT <= :strDbUsgStrtDtm
+                    AND     B.EXP_DT > :strDbUsgStrtDtm
+                    AND     A.PROD_ID = B.PROD_ID
+                    AND     A.EFF_DT <= :strDbUsgStrtDtm
+                    AND     A.EXP_DT > :strDbUsgStrtDtm
+                ) P,
+                (
+                    SELECT  PROD_ID,
+                            MAX(CORR_ID) CORR_ID
+                    FROM    (
+                                SELECT  /*+ INDEX(A,TOC_CORR_PK) */
+                                        PROD_ID,
+                                        CORR_ID
+                                FROM    TOC_CORR A
+                                WHERE   SVC_MGMT_NO = :strDbSvcMgmtNo
+                                AND     CORR_TYP = 'DT'
+                                AND     EFF_DT <= :strDbUsgStrtDtm
+                                AND     EXP_DT > :strDbUsgStrtDtm
+                                AND     CORR = SUBSTR(:strDbUsgStrtDtm, 5, 4)
+                                UNION ALL
+                                SELECT  /*+ INDEX(A,TOC_CORR_PK) */
+                                        PROD_ID,
+                                        CORR_ID
+                                FROM    TOC_CORR A
+                                WHERE   SVC_MGMT_NO = :strDbSvcMgmtNo
+                                AND     CORR_TYP = 'PN'
+                                AND     EFF_DT <= :strDbUsgStrtDtm
+                                AND     EXP_DT > :strDbUsgStrtDtm
+                                AND     CORR = :strDbUseTrgtNo
+                            )
+                    GROUP BY
+                            PROD_ID
+                ) C
+        WHERE   P.PROD_ID = C.PROD_ID(+)
+        ORDER BY
+                P.PROD_OFFER_TYP,
+                P.EFF_DT,
+                P.PROD_SEQ_NO;
+
+    while  ( 1 ) 
+    { 
+        EXEC SQL OPEN C1 ;
+        EXEC SQL FETCH C1 INTO :a, :b, :c, :d, :e, :f;
+        if (sqlca.sqlcode != SQL_SUCCESS) { 
+
+            PRINT_SQL_ERROR ("ERR");
+            break; 
+
+        }
+        EXEC SQL CLOSE C1; 
+        usleep ( 1000 * 10  ) ;
+        EXEC SQL COMMIT ;
+    }
+
+
+    return 0;
+
+  fail_exit:
+
+    printf("FAILURE\n");
+    printf("############################\n\n");
+
+    EXEC SQL ROLLBACK WORK RELEASE;
+
+    return 0;
+}
+
+int Connect(char *aHostInfo, char *aUserID, char *sPassword)
+{
+    EXEC SQL BEGIN DECLARE SECTION;
+    VARCHAR  sUid[80];
+    VARCHAR  sPwd[20];
+    VARCHAR  sConnStr[1024];
+    EXEC SQL END DECLARE SECTION;
+
+    /*----------------------------------------------
+      Log on GOLDILOCKS
+      ------------------------------------------------*/
+    strcpy((char *)sUid.arr, aUserID);
+    sUid.len = (short)strlen((char *)sUid.arr);
+    strcpy((char *)sPwd.arr, sPassword);
+    sPwd.len = (short)strlen((char *)sPwd.arr);
+    strcpy((char *)sConnStr.arr, aHostInfo);
+    sConnStr.len = (short)strlen((char *)sConnStr.arr);
+
+    /* DB 연결 */
+    EXEC SQL CONNECT :sUid IDENTIFIED BY :sPwd USING :sConnStr;
+    if(sqlca.sqlcode != 0)
+    {
+        goto fail_exit;
+    }
+
+    return SUCCESS;
+
+  fail_exit:
+
+    PRINT_SQL_ERROR("[ERROR] Connection Failure!");
+
+    return FAILURE;
+}
+

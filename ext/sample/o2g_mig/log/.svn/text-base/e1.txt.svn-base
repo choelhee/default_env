@@ -1,0 +1,91 @@
+oracle@playstation: /home/oracle/script/getdata
+$ o2g_run.sh T2
++ sqlplus -S test/test @getdata T2
+
+Session altered.
+
+Elapsed: 00:00:00.00
+
+Session altered.
+
+Elapsed: 00:00:00.00
+SET NEWPAGE 0;
+SET SPACE 0;
+SET LINESIZE 2000;
+SET PAGESIZE 0;
+SET ECHO OFF;
+SET FEEDBACK OFF;
+SET HEADING OFF;
+SET TERM OFF;
+SET TRIMSPOOL ON;
+SET TIMING OFF;
+SET RECSEP OFF;
+--SET RECSEPCHAR @;
+ALTER SESSION SET NLS_DATE_FORMAT='YYYY/MM/DD HH24:MI:SS';
+spool T2.dat
+SELECT
+'"'||C1
+||'","'||C2
+||'","'||C3
+||'","'||C4||'"
+'
+FROM T2;
+spool off;
+exit ;
+
+real	0m0.377s
+user	0m0.033s
+sys	0m0.020s
++ RC=0
++ set +x
+
+ERR-42000(16208): insufficient privileges
+
+
+Commit complete.
+
+
+ERR-42000(16254): lacks privilege (SELECT ON TABLE "PUBLIC"."T2")
+
++ gloadernet test test --import -c T2.ctl -d T2.dat -l T2.log -b T2.bad --no-copyright
+ERR-42000(16254): lacks privilege (SELECT ON TABLE "PUBLIC"."T2")
+
+
+ERROR: FAILED TO IMPORT TABLE T2
+
+
+
+real	0m0.010s
+user	0m0.000s
+sys	0m0.004s
++ RC=1
++ set +x
+[ERROR] T2 upload fail. (1)
+-rw------- 1 oracle oinstall   0 Aug  8 07:57 T2.bad
+-rw-r--r-- 1 oracle oinstall  79 Aug  8 07:57 T2.ctl
+-rw-r--r-- 1 oracle oinstall   0 Aug  8 07:57 T2.dat
+-rw------- 1 oracle oinstall 116 Aug  8 07:57 T2.log
+-rw-r--r-- 1 oracle oinstall 352 Aug  8 07:57 T2.sql
+
+oracle@playstation: /home/oracle/script/getdata
+$ ll
+total 72
+drwxr-xr-x 3 oracle oinstall  4096 Aug  8 07:57 ./
+drwxr-xr-x 3 oracle oinstall  4096 Aug  8 06:55 ../
+-rw-r--r-- 1 oracle oinstall    61 Aug  8 07:01 aa
+-rw-r--r-- 1 oracle oinstall   139 Aug  8 07:12 crt.sql
+-rw-r--r-- 1 oracle oinstall  2194 Aug  8 07:17 getdata.sql
+-rw-r--r-- 1 oracle oinstall   285 Aug  8 07:12 ins.sql
+-rw-r--r-- 1 oracle oinstall    35 Aug  8 07:00 o2g_exp.sh
+-rw-r--r-- 1 oracle oinstall  1309 Aug  8 07:50 o2g_imp.sh
+-rw-r--r-- 1 oracle oinstall 12288 Aug  8 07:56 .o2g_imp.sh.swp
+-rwxr--r-- 1 oracle oinstall   589 Aug  8 07:57 o2g_run.sh*
+-rw-r--r-- 1 oracle oinstall   582 Aug  8 07:30 README
+-rw-r--r-- 1 oracle oinstall    88 Aug  8 07:00 skel.ctl
+drwxr-xr-x 2 oracle oinstall  4096 Aug  8 07:39 T1/
+-rw------- 1 oracle oinstall     0 Aug  8 07:57 T2.bad
+-rw-r--r-- 1 oracle oinstall    79 Aug  8 07:57 T2.ctl
+-rw-r--r-- 1 oracle oinstall     0 Aug  8 07:57 T2.dat
+-rw------- 1 oracle oinstall   116 Aug  8 07:57 T2.log
+-rw-r--r-- 1 oracle oinstall   352 Aug  8 07:57 T2.sql
+

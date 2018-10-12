@@ -1,0 +1,8 @@
+#!/bin/sh
+
+source insXX.sh.Equal
+
+run${GOLDILOCKS_LOCAL_CLUSTER_MEMBER}
+
+wait ; exit 0
+

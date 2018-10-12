@@ -1,0 +1,4751 @@
+    1  ls
+    2  ls -al
+    3  ls
+    4  vi .zshrc
+    5  ll
+    6  cd workspace
+    7  ls
+    8  cd
+    9  ls
+   10  ls -al
+   11  echo $SHELL
+   12  exit
+   13  echo $SHELL
+   14  s
+   15  goldilocks_home
+   16  ls
+   17  sa
+   18  sample/
+   19  ls
+   20  ls -al
+   21  cd
+   22  ls
+   23  ls- al
+   24  ls -a
+   25  ls -la
+   26  fzf
+   27  yum search fzf
+   28  ls
+   29  cd
+   30  vi .zshrc
+   31  exit
+   32  git
+   33  ls
+   34  ls -al
+   35  cd workspace
+   36  cd
+   37  cd workspace
+   38  s
+   39  ls
+   40  cd
+   41  ls
+   42  cd .oh-my-zsh
+   43  ls
+   44  ls a-l
+   45  zs oh-my-zsh.sh
+   46  ll
+   47  cd plugins
+   48  ls
+   49  cd ..
+   50  ls
+   51  cd custom
+   52  ls
+   53  cd plg
+   54  cd plugins
+   55  ls
+   56  vi zsh-completions
+   57  autoload
+   58  autoload -U compinit 
+   59  compinit
+   60  ls
+   61  c
+   62  dls
+   63  c
+   64  dls
+   65  cd
+   66  ls
+   67  cd telegraf_goldilocks
+   68  ls
+   69  cd
+   70  ls
+   71  ls -al
+   72  exot
+   73  eit
+   74  exit
+   75  ls
+   76  vi .bashrc
+   77  vi .zsh_profile
+   78  exot
+   79  ls -al
+   80  vi .zshrc
+   81  source .zshrc
+   82  ls
+   83  GID=q
+   84  ls
+   85  ZSH_THEME
+   86  git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+   87  # zsh-autosuggestions
+   88  git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
+   89  ls
+   90  cd
+   91  ls
+   92  vi .zshrc
+   93  exit
+   94  ls 
+   95  ls
+   96  ls -al
+   97  vi .zshrc
+   98  exit
+   99  ls
+  100  ls a-l
+  101  ll
+  102  ls -al
+  103  ll
+  104  ls -al
+  105  workspace
+  106  ls
+  107  gowork
+  108  sl
+  109  ls
+  110  cd
+  111  ls
+  112  ls -al
+  113  tmux
+  114  ls
+  115  tmux ls
+  116  tmux 
+  117  d
+  118  a1
+  119  tmux ls
+  120  tmux attach 1
+  121  tmux attach-session -t 1
+  122  ls
+  123  ls -al
+  124  ;s
+  125  ls
+  126  cd
+  127  ls
+  128  ls -al
+  129  ls
+  130  vi .bashrc
+  131  ll
+  132  ls a-l
+  133  tmux attach-session -t 01
+  134  tmux attach-session -t 1
+  135  ls
+  136  ls a-l
+  137  tmux ls
+  138  tmux attach-session -t mySession
+  139  ls
+  140  ls -la
+  141  cd
+  142  ls
+  143  ls -al
+  144  ls
+  145  ls -al
+  146  cd
+  147  ls
+  148  vi .zshrc
+  149  source .zshrc
+  150  ls -al
+  151  exit
+  152  vi .zshrc
+  153  ls
+  154  cd
+  155  ls
+  156  ls -al
+  157  exit
+  158  cd
+  159  ls
+  160  ls -al
+  161  cd
+  162  ls
+  163  tmux list
+  164  tmux ls
+  165  tmux attach-session -t 0
+  166  ls
+  167  ls a-l
+  168  ls -al
+  169  exit
+  170  tmux ls
+  171  tmux attach-session -t mySess
+  172  s
+  173  ls -al
+  174  cd
+  175  ls
+  176  ls -al
+  177  exit
+  178  exxit
+  179  exit
+  180  ls
+  181  ls -al
+  182  1
+  183  2
+  184  ls
+  185  ls a-l
+  186  ls
+  187  cd workspace
+  188  ls
+  189  cd
+  190  ls
+  191  vi .zshrc
+  192  l
+  193  t
+  194  cd
+  195  ls a-l
+  196  ls
+  197  cd
+  198  ls
+  199  cd $DBM_HOME
+  200  ls
+  201  cd workspace
+  202  ls
+  203  cd 3rd_iter
+  204  ls
+  205  cd trc
+  206  ls
+  207  cd dbm_home
+  208  ls
+  209  cd trc
+  210  l
+  211  tail -f dbm.demo.20180323.log
+  212  LL
+  213  l
+  214  exit
+  215  cd
+  216  ls
+  217  ls -al
+  218  4b4^M
+  219  s
+  220  cd
+  221  ls
+  222  ls a-l
+  223  b
+  224  ls
+  225  2
+  226  d
+  227  tmux ls
+  228  tmux 
+  229  ls
+  230  cd $DBM_HOME/trc
+  231  tail -f NOAA_data.txt
+  232  ls
+  233  ls -al
+  234  ls
+  235  cd
+  236  ls
+  237  b 1
+  238  exit
+  239  tmux ls
+  240  tmux 
+  241  ls
+  242  cd
+  243  ls
+  244  tmux ls
+  245  tmux attach-session -t 0
+  246  ls
+  247  ls -al
+  248  echo $SHELL
+  249  ls
+  250  cd
+  251  ks
+  252  ls
+  253  ls a-l
+  254  ls 
+  255  ls
+  256  ls -al
+  257  ls
+  258  cd
+  259  vi .zshrc
+  260  exit
+  261  ls
+  262  source
+  263  env
+  264  env | grep GOLDI
+  265  vi .zshrc
+  266  vi .zsh_profile
+  267  exit
+  268  L
+  269  sls
+  270  ls
+  271  ls a-l
+  272  vim .bashrc .zsh_profile
+  273  exit
+  274  ls
+  275  vim .bashrc .zsh_profile
+  276  vi .zsh_profile
+  277  exit
+  278  ls
+  279  ls -al
+  280  clear
+  281  ls
+  282  ls -al
+  283  top
+  284  ls
+  285  ls -al
+  286  vi -O .zsh_profile .bash_profile
+  287  exit
+  288  ls
+  289  flane
+  290  gsql --as sysdba
+  291  glsnr --stop 
+  292  top
+  293  ps -ef | grep ckh0618
+  294  cd
+  295  exit
+  296  tmux
+  297  exit
+  298  tmux
+  299  ls -al
+  300  tmux
+  301  cd
+  302  ls
+  303  ls -al
+  304  cd
+  305  ls
+  306  ls -al
+  307  clear
+  308  ls
+  309  ls -al
+  310  top
+  311  ls -al
+  312  mem
+  313  ls -al
+  314  top
+  315  ls -al
+  316  ls
+  317  top
+  318  ls
+  319  clear
+  320  ls
+  321  clear
+  322  ls
+  323  ls -al
+  324  cd workspace
+  325  ls
+  326  ls a-l
+  327  ls
+  328  ls -al
+  329  cd 3rd_iter
+  330  ls
+  331  ls -al
+  332  sbn up
+  333  svn up
+  334  svn diff
+  335  ls -la
+  336  v
+  337  gsqlnet test test
+  338  l
+  339  s
+  340  ls a-l
+  341  top
+  342  s
+  343  ls
+  344  ls -al
+  345  cd
+  346  ls
+  347  ls -al
+  348  docker ps
+  349  docekr ps
+  350  ls
+  351  ls -al
+  352  ps -ef | grep cdis
+  353  ll
+  354  top
+  355  ls
+  356  cls
+  357  ls
+  358  ls -al
+  359  docker ps
+  360  docker exec -it dockergoldilocksmonitoring_g1n1_1 /bin/bash
+  361  ls
+  362  ls -al
+  363  cd workspace
+  364  ls
+  365  cd C
+  366  ls
+  367  cd CryptoCurrencyExchange
+  368  ls
+  369  cd src
+  370  ls
+  371  make
+  372  sh btc.sh 
+  373  sh eth.sh
+  374  docker exec -it dockergoldilocksmonitoring_g1n1_1 /bin/bash
+  375  ls
+  376  sh btc.sh 
+  377  sh eth.sh
+  378  ls
+  379  cd
+  380  ls
+  381  vi .tmux.conf
+  382  exit
+  383  ls -al
+  384  exit
+  385  ll
+  386  tmux
+  387  ls -al
+  388  ls
+  389  ls a-l
+  390  lks
+  391  ls
+  392  cd
+  393  ls
+  394  ls -al
+  395  gsql test test
+  396  ls
+  397  ls a-l
+  398  cd
+  399  ls
+  400  cd workspace
+  401  ls
+  402  cd cluster
+  403  ls
+  404  cd 
+  405  ls
+  406  ls -al
+  407  cd ..
+  408  ls -al
+  409  cd c
+  410  cd 
+  411  cd workspace
+  412  ls
+  413  cd cluster
+  414  ls
+  415  ls -al
+  416  cd ..
+  417  ls
+  418  ls -al
+  419  cd cluster_test
+  420  ls
+  421  sh clean.sh 
+  422  ls -al
+  423  sh create_standalone.sh
+  424  ls
+  425  gsql test test
+  426  ls
+  427  ls -al
+  428  cat create_standalone.sh
+  429  ls
+  430  gsql test test
+  431  glsnr --start
+  432  ps -ef | grep glsn
+  433  vi $GOLDILOCKS_HOME/
+  434  glsnr --stop
+  435  glsnr --sart
+  436  glsnr --start
+  437  netstat -an | grep 37562
+  438  cd
+  439  cd workspace
+  440  ls
+  441  gowork
+  442  ls
+  443  ls -al
+  444  cd plugins/inputs/goldilocks_cluster/
+  445  ls
+  446  vi goldilocks_cluster.go 
+  447  ls
+  448  ls -al
+  449  gsql test test 
+  450  EEXIT
+  451  exit
+  452  ls -al
+  453  tmux ls
+  454  tmux at
+  455  gsql test test
+  456  ㅣㄴ
+  457  ls
+  458  cd
+  459  ls
+  460  ls -al
+  461  cd workspace
+  462  ls
+  463  cd docker_goldilocks_monitoring
+  464  ls
+  465  docker-compose down
+  466  ls
+  467  ls -al
+  468  vi dockerfiles/
+  469  ls
+  470  ls -al
+  471  cd ..
+  472  ls -al
+  473  mkdir docker_standalone
+  474  ls
+  475  ls -al
+  476  cd docker_standalone
+  477  ls
+  478  ls -al
+  479  cp ../docker_goldilocks_monitoring/* .
+  480  cp ../docker_goldilocks_monitoring/** .
+  481  cp -r ../docker_goldilocks_monitoring/** .
+  482  ls -al
+  483  vi docker-compose.yaml
+  484  ls -al
+  485  cd dockerfiles
+  486  ls
+  487  ls -al
+  488  vi DockerfileGoldilocks
+  489  ls -al
+  490  cd scripts
+  491  ls
+  492  vi CreateAndStart.sh
+  493  ls -al
+  494  rm CreateCluster.sql 
+  495  ls -al
+  496  vi init.sql
+  497  ls -al
+  498  rm *.sql
+  499  ls -al
+  500  rm run_all.sh
+  501  ls
+  502  ls -al
+  503  vi CreateSystemDic.sh
+  504  vi CreateAndStart.sh
+  505  vi CreateSystemDic.sh
+  506  ls -al
+  507  cd ..
+  508  ls -al
+  509  ls
+  510  ls -al
+  511  ls
+  512  ls -al
+  513  cd ..
+  514  ls
+  515  vi dockerfiles
+  516  vi docker-compose.yaml
+  517  docker-compose build
+  518  ls
+  519  cd dockerfiles
+  520  ls
+  521  cd goldilocks_package
+  522  ls
+  523  sftp rel@192.168.0.205
+  524  ls
+  525  rm goldilocks-server-venus.3.1.9-linux-x86_64.tar.gz
+  526  cd ..
+  527  ls
+  528  cd ..
+  529  ls -al
+  530  docker-build
+  531  docker-compose build
+  532  docker-compose up
+  533  cd
+  534  ls
+  535  dockerps
+  536  docker ps
+  537  docker exec -it dockerstandalone_db1_1 /bin/bash
+  538  ls
+  539  ls -la
+  540  cd
+  541  ls
+  542  ls -al
+  543  clear
+  544  ls
+  545  cd
+  546  ls
+  547  ls -al
+  548  cledar
+  549  clear
+  550  ls
+  551  docker ps
+  552  docker exec -it dockerstandalone_db1_1 /bin/bash
+  553  cdoc
+  554  docker ps
+  555  docker exec -it dockerstandalone_db2_1 /bin/bash
+  556  ls
+  557  ls -al
+  558  cd
+  559  ls
+  560  cd workspace
+  561  ls -al
+  562  cd CryptoCurrencyExchange
+  563  ls
+  564  gsql test test
+  565  gsqlnet test test
+  566  gsql --as sysdba
+  567  ls
+  568  gsqlnet test test
+  569  cd
+  570  vi .odbc.ini
+  571  gsqlnet test test 
+  572  docker ps
+  573  gsqlnet test test
+  574  ls
+  575  cd workspace
+  576  ls
+  577  cd CryptoCurrencyExchange
+  578  ls
+  579  ls -al
+  580  cd script
+  581  ls
+  582  ls -al
+  583  cp crt_table.sql crt_table_standlone.sql
+  584  vi crt_table_standlone.sql
+  585  gsqlnet test test -i crt_table_standlone.sql
+  586  ]
+  587  ls
+  588  ls -al
+  589  cd ..
+  590  ls -la
+  591  gsqlnet sys gliese --as sysdba
+  592  ls -al
+  593  vi crt_table_standlone.sql
+  594  docker ps
+  595  cd
+  596  ls
+  597  vi .odbc.ini
+  598  gsqlnet sys gliese --dsn GOLDILOCKS_1
+  599  cat .odbc.ini
+  600  \\
+  601  ]
+  602  vi .odbc.ii
+  603  vi .odbc.ini
+  604  ls -al
+  605  cd workspace/CryptoCurrencyExchange/script
+  606  ls
+  607  ls -al
+  608  gsql test test --dsn=GOLDILOCKS_1 -i crt_table_standlone.sql
+  609  gsqlnet test test --dsn=GOLDILOCKS_1 -i crt_table_standlone.sql
+  610  exit
+  611  ls -la
+  612  ls -al
+  613  exit
+  614  ls
+  615  tmux \\
+  616  
+  617  docker ps
+  618  docekr exec -it dockerstandalone_db1_1 /bin/bash
+  619  docker exec -it dockerstandalone_db1_1 /bin/bash
+  620  docker exec -it dockerstandalone_db2_1 /bin/bash
+  621  ls
+  622  ls a-l
+  623  ls -la
+  624  cd workspace/CryptoCurrencyExchange
+  625  ls
+  626  cd src
+  627  ls
+  628  ls -al
+  629  sh btc.sh
+  630  vi btc.sh 
+  631  sh btc.sh 
+  632  exit
+  633  tmux ls
+  634  tmux attach-session -t 4
+  635  gowork
+  636  ls
+  637  cd plugins/inputs/goldilocks_cluster/
+  638  ls
+  639  vi goldilocks_cluster.go
+  640  ls
+  641  cd..
+  642  cd ..
+  643  ls
+  644  cd ..
+  645  ls
+  646  vi telegraf.conf
+  647  cat $HOME/.odbc.ini
+  648  ./telegraf
+  649  ./telegraf --config telegraf
+  650  ./telegraf --config telegraf.conf
+  651  gdb ./telegraf --config telegraf.conf
+  652  gdb --args ./telegraf --config telegraf.conf
+  653  y
+  654  gdb --args ./telegraf --config telegraf.conf
+  655  q
+  656  ls
+  657  vi goldilocks_cluster.go
+  658  vi 
+  659  cd plugins/inputs/goldilocks_cluster
+  660  ls
+  661  ls a-l
+  662  vi goldilocks_cluster.go
+  663  make
+  664  cd ..
+  665  make
+  666  ls -al
+  667  cd ..
+  668  ls
+  669  make
+  670  make telegraf
+  671  ls
+  672  vi plugins/inputs/goldilocks_cluster/goldilocks_cluster.go
+  673  ls
+  674  gdb
+  675  gdb --args 
+  676  ls
+  677  gdb --args ./telegraf
+  678  s
+  679  gdb --args ./telegraf --config telegraf.conf
+  680  ls
+  681  ls -al
+  682  vi telegraf.conf
+  683  gsqlnet 
+  684  gsqlnet sys gliese --dsn GOLDILOCKS
+  685  gsqlnet test test --dsn GOLDILOCKS
+  686  ls
+  687  ./telegraf --config telegraf.conf
+  688  vi telegraf.conf
+  689  ll
+  690  vi plugins/inputs/goldilocks_cluster/
+  691  make telegraf
+  692  vi plugins/inputs/goldilocks_cluster/
+  693  vi plugins/inputs/goldilocks_cluster/goldilocks_cluster.go
+  694  make telegraf
+  695  ./telegraf --config telegraf.conf
+  696  vi plugins/inputs/goldilocks_cluster/goldilocks_cluster.go
+  697  make
+  698  make telegraf
+  699  ./telegraf --config telegraf.conf
+  700  vi plugins/inputs/goldilocks_cluster/goldilocks_cluster.go
+  701  ./telegraf --config telegraf.conf
+  702  vi plugins/inputs/goldilocks_cluster/goldilocks_cluster.go
+  703  make
+  704  make telegraf
+  705  ls -al
+  706  ./telegraf --config telegraf.conf
+  707  CREATE OR REPLACE VIEW MONITOR_SESSION_DETAIL AS 
+  708  SELECT    NVL(LOCAL_GROUP_NAME(), 'STANDALONE') GROUP_NAME
+  709  gsql
+  710  gsqlnet test test --dsn GOLDILOCKS
+  711  ./telegraf --config telegraf.conf
+  712  gsqlnet test test --dsn GOLDILOCKS
+  713  ./telegraf --config telegraf.conf
+  714  gsqlnet test test --dsn GOLDILOCKS
+  715  ./telegraf --config telegraf.conf
+  716  ls
+  717  cd
+  718  ls- al
+  719  ls -al
+  720  docker ps
+  721  docekr exec -it dockerstandalone_db1_1 /bin/bash
+  722  docker exec -it dockerstandalone_db1_1 /bin/bash
+  723  docker exec -it dockerstandalone_db2_1 /bin/bash
+  724  ll
+  725  cd workspace/CryptoCurrencyExchange
+  726  ls
+  727  cd src
+  728  ls
+  729  sh btc.sh
+  730  DOCKER PS
+  731  dsocker
+  732  docker 
+  733  docker exec -it dockerstandalone_db1_1 /bin/bash
+  734  ls
+  735  sh btc.sh
+  736  ifconfig
+  737  if
+  738  su - heni
+  739  sudo yum update
+  740  dmesg
+  741  ls
+  742  ls -al
+  743  su - heni
+  744  sudo cat /vat/log/messages
+  745  cd /var/log
+  746  ;s
+  747  ls
+  748  cat messages
+  749  sudo cat messages
+  750  sudo cat messages | grep ixgbe
+  751  d
+  752  dmesg
+  753  d
+  754  dmesg
+  755  docker ps
+  756  docker exec -it dockerstandalone_db2_1 /bin/bash
+  757  exit
+  758  tmux
+  759  :q
+  760  exit
+  761  tmux 
+  762  docker ps
+  763  docker exec -it dockerstandalone_db1_1 /bin/bash
+  764  ls a-l
+  765  ls -la
+  766  gsql test test 
+  767  selecc 
+  768  docker exec -it dockerstandalone_db1_1 /bin/bash
+  769  cd workspace/C
+  770  cd workspace/CryptoCurrencyExchange/src/
+  771  ls
+  772  sh btc.sh
+  773  ls
+  774  ls a-l
+  775  cd
+  776  ls
+  777  ls -al
+  778  cd
+  779  ls
+  780  ls- la
+  781  top
+  782  ls
+  783  ls -la
+  784  3
+  785  ls
+  786  ls -al
+  787  exit
+  788  ls
+  789  ls -al
+  790  exit
+  791  ls
+  792  ls -la
+  793  cdl
+  794  cd
+  795  ls
+  796  ls -al
+  797  cd workspace
+  798  ls
+  799  ls a-l
+  800  cd docker_goldilocks
+  801  ls
+  802  ls -al
+  803  cd ..
+  804  ls
+  805  cd docker_goldilocks_debug
+  806  ls
+  807  ls -la
+  808  cd dockerfiles
+  809  ls
+  810  ls -al
+  811  vi Dockerfile
+  812  ls -al
+  813  ccd ..
+  814  ls -al
+  815  cd ..
+  816  ls
+  817  ls -la
+  818  cd ..
+  819  ls
+  820  ls -al
+  821  docker_goldilocks_debug
+  822  ls
+  823  cd ..
+  824  ls -al
+  825  docker ps
+  826  ld
+  827  cd
+  828  ls
+  829  wget http://memcached.org/latest
+  830  ll
+  831  wget
+  832  ls -al la*
+  833  gzip -cd latest| tar xvf -
+  834  cd memcached-1.5.6
+  835  ls
+  836  ls -al
+  837  ll
+  838  ls -la
+  839  make
+  840  ./configure
+  841  make
+  842  ls
+  843  vi hash.h
+  844  vi hash.c
+  845  grep main *
+  846  vi memcached.c
+  847  ls
+  848  ls -la
+  849  vi logger.h
+  850  vi logger.c
+  851  vi stat.c
+  852  vi vi linux_priv.c
+  853  ls -al
+  854  vi linux_priv.c
+  855  vi crawler.
+  856  vi crawler.c
+  857  vi storage.h
+  858  grep malloc *
+  859  ls
+  860  cd docker_goldilocks2
+  861  ks
+  862  ls
+  863  cd ..
+  864  find ./ -name "docker*"
+  865  find ./ -name "docker*" | grep prdo
+  866  find ./ -name "docker*" | grep prro
+  867  find ./ -name "product"
+  868  cd ./pro
+  869  cd ./product
+  870  ls
+  871  ls a-l
+  872  cd ..
+  873  ls
+  874  ls a-l
+  875  ll
+  876  gdumplog
+  877  cd
+  878  ls
+  879  dumplog
+  880  cd $ 
+  881  cd $GOLDILOCKS_HOME/bin
+  882  ls
+  883  ll
+  884  gdump
+  885  tmux
+  886  ls
+  887  gdump
+  888  cd 
+  889  ls
+  890  cd $GOLDILOCKS_DATA
+  891  ls
+  892  cd wal
+  893  ls
+  894  ls -al
+  895  gdump COMMIT_LOG 
+  896  gdump COMMIT_LOG redo_0_0.log
+  897  gdump LOG redo_0_0.log
+  898  gdump LOG redo_0_0.log | tail -100
+  899  cd
+  900  gsql test test
+  901  select  
+  902  gsql --as sysdba
+  903  set -o vi
+  904  gdump LOG redo_0_0.log | tail -100
+  905  gdump LOG redo_1_0.log | tail -100
+  906  gdump LOG redo_3_0.log | tail -100
+  907  ll
+  908  gdump LOG redo_1_0.log | tail -100
+  909  gdump LOG redo_2_0.log | tail -100
+  910  gdump LOG redo_3_0.log | tail -100
+  911  gdump LOG redo_1_0.log | tail -100
+  912  gdump LOG redo_0_0.log | tail -100
+  913  ls
+  914  ls -al
+  915  cd $GOLDILOCKS_HOME/admin/standalone/
+  916  ls
+  917  vi DictionarySchema.sql
+  918  gsql test test
+  919  gdump LOG redo_0_0.log | tail -100 | grep 8323646619648
+  920  gdump LOG redo_0_0.log | tail -100
+  921  set -o vi
+  922  gdump LOG redo_0_0.log | tail -100
+  923  gdump LOG redo_0_0.log | tail -100 > 1.txt
+  924  vi 1.txt
+  925  gump
+  926  gdump
+  927  gdump LOG redo_0_0.log -a
+  928  gdump LOG redo_0_0.log -a | tail -100
+  929  ^M
+  930  gdump LOG redo_0_0.log -a | tail -100 > 1.txt
+  931  gdump LOG redo_0_0.log -a > 1.txt
+  932  vi 1.txt
+  933  cd
+  934  ls
+  935  cd workspace/product
+  936  ls
+  937  ls -al
+  938  cd layer/GlieseTool/gdump/dev
+  939  ls
+  940  ls a-l
+  941  cd src
+  942  ls
+  943  ls- la
+  944  vu *.c
+  945  vi *.c
+  946  cd
+  947  ls
+  948  ls -al
+  949  tmux
+  950  ls -la
+  951  ls -al
+  952  ls
+  953  ls a-l
+  954  1
+  955  ls
+  956  ls -al
+  957  32
+  958  ls
+  959  clear
+  960  ls
+  961  ls -al
+  962  ls
+  963  ls -al
+  964  cd docker_dev
+  965  ls
+  966  ls -al
+  967  cd product
+  968  ls
+  969  ls -al
+  970  svn up
+  971  cd ..
+  972  ls
+  973  osl a-l
+  974  ls -la
+  975  vi Dockerfile
+  976  ls -la
+  977  cd ..
+  978  ls
+  979  ls -al
+  980  cd docker_dev
+  981  ls
+  982  ls -al
+  983  cd product
+  984  ls
+  985  cd regress
+  986  ls
+  987  ls -al
+  988  cd Cluster
+  989  ls
+  990  ls -al
+  991  cd ..
+  992  ls -la
+  993  cd ClusterReliability
+  994  ls
+  995  ls -la
+  996  cd ClusterRe
+  997  vi ClusterReliability.ts
+  998  cd gsql
+  999  ls
+ 1000  vi Startup.ts.lst
+ 1001  vi gsql.ts
+ 1002  vi Startup.ts.sql `\n
+ 1003  vi Startup.ts.sql \n
+ 1004  ls -al
+ 1005  cd ..
+ 1006  ls
+ 1007  ls -al
+ 1008  cd Consistency
+ 1009  ls
+ 1010  ls -la
+ 1011  vi syncProperty.ts.sql
+ 1012  cd ..
+ 1013  ls
+ 1014  ls -l
+ 1015  cd StoMan
+ 1016  ls
+ 1017  ls -al
+ 1018  vi StoMan.ts
+ 1019  cd Transaction
+ 1020  ls
+ 1021  vi commitWriteMode.ts.sql
+ 1022  ls -al
+ 1023  vi rebalance_err_simple.ts.sql
+ 1024  ls
+ 1025  ls -al
+ 1026  top
+ 1027  tmux
+ 1028  tmux list
+ 1029  tmux ls
+ 1030  tmux attach-session -t 9
+ 1031  vi rebalance_err_simple.ts.sql
+ 1032  tmux 
+ 1033  exit
+ 1034  l
+ 1035  ls
+ 1036  exit
+ 1037  tmux ls
+ 1038  tmux attach-session -t 9
+ 1039  tmux attach-session -t 0
+ 1040  exit
+ 1041  ls
+ 1042  docker ps
+ 1043  tumux ls
+ 1044  tmux ls
+ 1045  tmux attach-session -t 2
+ 1046  exit
+ 1047  tmux attach-session -t 4
+ 1048  exit
+ 1049  tmux attach-session -t 8
+ 1050  exit
+ 1051  tmux ls
+ 1052  tmux start-server 
+ 1053  tmux ls
+ 1054  tmux
+ 1055  ls
+ 1056  ls a-l
+ 1057  tmux ls
+ 1058  tmux 
+ 1059  clear
+ 1060  ls
+ 1061  ls a-l
+ 1062  ls -la
+ 1063  top
+ 1064  vi 1.p
+ 1065  cd
+ 1066  ls
+ 1067  rm 1* 2* 3*
+ 1068  ls -al
+ 1069  vi a.sh
+ 1070  rm a.sh
+ 1071  ls -al
+ 1072  rm *.tar.gz
+ 1073  ls -al
+ 1074  rm -rf *.rpm *.tgz
+ 1075  ls -al
+ 1076  rm 4.js
+ 1077  ls -al
+ 1078  rm NOAA_data.txt
+ 1079  ls
+ 1080  rm -rf my_vue_project memcached-1.5.6 include hh ckh0618.github.io boost_1_65_1 asio bin  WAL dic VirtualBox\ VMs
+ 1081  ls -al
+ 1082  rm telegraf*
+ 1083  ls -la
+ 1084  rm test*
+ 1085  rm -rf test*
+ 1086  ls -al
+ 1087  rm -rf tt vagrant_start trc timer table.sql t lib latest 
+ 1088  rm -rf Makefile
+ 1089  kk
+ 1090  ll
+ 1091  ls
+ 1092  ls -al
+ 1093  ll
+ 1094  ls -al
+ 1095  vi .influxdb
+ 1096  rm -rf .influx
+ 1097  rm -rf .influxdb
+ 1098  ls
+ 1099  ls -al
+ 1100  rm -rf ./.gem .emacs.d .erlang.cookie .influx_history .lesshst drwxrwxr-x     3 ckh0618 ckh0618       19  1월 10 12:28 .local
+ 1101  kll
+ 1102  ll
+ 1103  ls -al
+ 1104  rm -rf .bundle .cache .electron .data .mozilla .mysql_history .python_history .vue-templates conf demo dbms 
+ 1105  ls -la
+ 1106  lr-tl
+ 1107  rm -rf grafana-4.6.3 goldilocks_dbm 
+ 1108  ls -al
+ 1109  cd kb
+ 1110  ls
+ 1111  cd ..
+ 1112  cd kb_bmt
+ 1113  ls
+ 1114  cd ..
+ 1115  ls -al
+ 1116  rm -rf kb kb_bmt node_modules nohup.out 
+ 1117  cd odbc
+ 1118  ls
+ 1119  cd ..
+ 1120  ls -al
+ 1121  rm -rf odbc php-7.1.8 proj  python_venv ruby-odbc ruby-odbc-original 
+ 1122  cd tmp
+ 1123  ls
+ 1124  ls -la
+ 1125  vi nohup.out
+ 1126  cd ..
+ 1127  rm -rf tmp
+ 1128  ls -al
+ 1129  clear
+ 1130  cd telegraf_goldilocks
+ 1131  ls
+ 1132  ls -al
+ 1133  cd ..
+ 1134  ls -al
+ 1135  ll
+ 1136  ls -la
+ 1137  cd workspace
+ 1138  ls
+ 1139  ls -la
+ 1140  rm -rf rabbit rabbitmq-c sandbox subicura.github.io telegraf_package.tar.gz 
+ 1141  ls -al
+ 1142  cd telegraf_package
+ 1143  ls
+ 1144  ls -la
+ 1145  cd ..
+ 1146  ls
+ 1147  ls -al
+ 1148  rm docker_goldilocks_debug
+ 1149  rm -rf docker_goldilocks_debug
+ 1150  mv ../docker_dev/ .
+ 1151  ls -al
+ 1152  cd golang
+ 1153  ls
+ 1154  ls -la
+ 1155  cd ..
+ 1156  rm -rf golang
+ 1157  rm -rf gpr
+ 1158  rm -rf grpc
+ 1159  cd net
+ 1160  ls
+ 1161  cd ..
+ 1162  rm -rf net
+ 1163  rm -rf node_modules
+ 1164  rm -rf nuxt pbt prometheus*
+ 1165  ls -la
+ 1166  cd psm/`\nls\nls
+ 1167  ls -al
+ 1168  cd psm
+ 1169  ls
+ 1170  ls -la
+ 1171  cd ..
+ 1172  rm -rf psm
+ 1173  ll
+ 1174  rm r-f exchange exchange_old exchange_old_00 fill gmp_sample aa a.out OpenDDS-3.12  BCMath-for-Cpp  bcmath bcmath_c bcmath_c_old beast bitcoin bithumb_fill bithumb_fill_back 
+ 1175  rm -rf exchange exchange_old exchange_old_00 fill gmp_sample aa a.out OpenDDS-3.12  BCMath-for-Cpp  bcmath bcmath_c bcmath_c_old beast bi%tcoin bithumb_fill bithumb_fill_back 
+ 1176  ;s
+ 1177  ;s =a;
+ 1178  ls a
+ 1179  ls -al
+ 1180  rm -rf protobuf proto php
+ 1181  ls -al
+ 1182  rm -rf 11.cc 3rd_iter 3rd_iter.tar.gz 4rd_iter boost
+ 1183  ll
+ 1184  rm -rf qpid-cpp
+ 1185  rm -rf python_emb python quadmath systemd test_go test_go test.cc test 
+ 1186  ls -al
+ 1187  rm -rf typescriptlang tt trunk tpce venv 
+ 1188  cd cluster
+ 1189  ls
+ 1190  cd ..
+ 1191  ls 
+ 1192  ls -al
+ 1193  cd cpp
+ 1194  ls
+ 1195  ls -al
+ 1196  vi Makefile
+ 1197  cd ..
+ 1198  rm -rf cpp
+ 1199  ls -al
+ 1200  cd bitcoin
+ 1201  ls
+ 1202  ls -al
+ 1203  cd ..
+ 1204  ls -al
+ 1205  rm -rf bitcoin
+ 1206  cd cluster.org
+ 1207  ls
+ 1208  cd ..
+ 1209  ls
+ 1210  cd cluster
+ 1211  ls
+ 1212  cd ..
+ 1213  rm -rf cluster cluster.org
+ 1214  ls -al
+ 1215  rm -rf django
+ 1216  ls -al
+ 1217  rm -rf dispatchd
+ 1218  rm -rf electron-api-demos
+ 1219  ls
+ 1220  ls -al
+ 1221  cd go
+ 1222  ls
+ 1223  ls -la
+ 1224  cd 
+ 1225  ls -al
+ 1226  cd workspace
+ 1227  ls
+ 1228  ls -al
+ 1229  cd
+ 1230  ls
+ 1231  ls la
+ 1232  ls -la
+ 1233  rm -rf Python-3.6.2rc1
+ 1234  ls -la
+ 1235  echo $SHELL
+ 1236  `\nls\nl\nc\n'\ncd\n`
+ 1237  ls
+ 1238  ls -la
+ 1239  cler
+ 1240  clerae
+ 1241  ls
+ 1242  ls -la
+ 1243  cd
+ 1244  ls
+ 1245  ls -al
+ 1246  ls
+ 1247  ls -al
+ 1248  top
+ 1249  ls
+ 1250  docker
+ 1251  dockerps 
+ 1252  docker ls
+ 1253  docker image lsl
+ 1254  docker image ls
+ 1255  docker image rm 594e2a89b6db 741bd53beb22 
+ 1256  docker ps
+ 1257  docker stop dadd6c0756a9
+ 1258  docker image ls
+ 1259  docker rmi 741bd53beb22 
+ 1260  dcoekr ps
+ 1261  docker ps
+ 1262  docker ps a
+ 1263  docker ps 
+ 1264  docker ps -a
+ 1265  docker rm $(docker ps -aq)
+ 1266  docker rmi 741bd53beb22 
+ 1267  docker ps
+ 1268  docker image ls
+ 1269  docker rmi 594e2a89b6db
+ 1270  docker ps
+ 1271  docker ls
+ 1272  docker ims
+ 1273  docker image
+ 1274  docker image ls
+ 1275  '\n\n\n'
+ 1276  ls
+ 1277  ls a-l
+ 1278  cd
+ 1279  ls
+ 1280  ls -al
+ 1281  vi zcompdump
+ 1282  cat .zcompdump
+ 1283  ls
+ 1284  clear
+ 1285  ls
+ 1286  ls -al
+ 1287  rm dashboard_capture.jpg
+ 1288  ls
+ 1289  ls 
+ 1290  rm goldilocks.dbm.env
+ 1291  ls
+ 1292  ls -la
+ 1293  vi .zshrc
+ 1294  vi .zsh_profile
+ 1295  python
+ 1296  python3
+ 1297  ls
+ 1298  vi .zsh_profile
+ 1299  cls
+ 1300  ls
+ 1301  tux
+ 1302  tmux
+ 1303  exit
+ 1304  tmux ls
+ 1305  tmux attach-session -t tech9
+ 1306  594e2a89b6db
+ 1307  exit
+ 1308  ls -alexit
+ 1309  exit
+ 1310  tumuix ls
+ 1311  tmux ls
+ 1312  ls -la
+ 1313  tmux
+ 1314  ls
+ 1315  ls -al
+ 1316  cd
+ 1317  s
+ 1318  to
+ 1319  top
+ 1320  ls -al
+ 1321  5
+ 1322  ls
+ 1323  cd
+ 1324  b
+ 1325  ldopc
+ 1326  cd
+ 1327  docker ps
+ 1328  docker image ls
+ 1329  cd
+ 1330  ls
+ 1331  ls -la
+ 1332  cd workspace
+ 1333  ls
+ 1334  mkdir docker
+ 1335  ls
+ 1336  ls -al
+ 1337  cd docker
+ 1338  ls
+ 1339  ls- la
+ 1340  cd docker-images
+ 1341  ls
+ 1342  ls- la
+ 1343  ls 
+ 1344  acd 
+ 1345  cd ..
+ 1346  rm -rf docker
+ 1347  ls
+ 1348  ls -al
+ 1349  mkdir docker
+ 1350  lls
+ 1351  cd docker
+ 1352  ls
+ 1353  ls- al
+ 1354  ls -la
+ 1355  ll
+ 1356  cd ..
+ 1357  ls
+ 1358  ls -la
+ 1359  cd docker
+ 1360  ls
+ 1361  cp -r ../docker_dev .
+ 1362  top
+ 1363  ls -la
+ 1364  ls
+ 1365  ls -la
+ 1366  cd docker_dev
+ 1367  ls
+ 1368  ls -la
+ 1369  vi product
+ 1370  cd product
+ 1371  ls
+ 1372  lsl a-l
+ 1373  ll
+ 1374  cd ..
+ 1375  ls
+ 1376  ls -la
+ 1377  cd product
+ 1378  ls
+ 1379  ls -al
+ 1380  rm *
+ 1381  ls -la
+ 1382  rm -rf *
+ 1383  ls -la
+ 1384  l
+ 1385  ls -la
+ 1386  rm -rf .svn
+ 1387  ls -la
+ 1388  ls -al
+ 1389  cd ..
+ 1390  ls
+ 1391  ls -al
+ 1392  vi docker-compose.yaml
+ 1393  vi Dockerfile
+ 1394  ls -la
+ 1395  cd dependency
+ 1396  ls
+ 1397  ls -la
+ 1398  cd ..
+ 1399  ls -al
+ 1400  vi Dockerfile
+ 1401  ls -al
+ 1402  vi docker-compose.yaml
+ 1403  ls -al
+ 1404  vi Dockerfile
+ 1405  vi docker-compose.yaml
+ 1406  ls -la
+ 1407  ls -al
+ 1408  cd goldilocks_package
+ 1409  ls -la
+ 1410  ls -al
+ 1411  cd ..
+ 1412  ls -la
+ 1413  vi Docker
+ 1414  vi Dockerfile
+ 1415  svn co
+ 1416  svn list svn://192.168.0.10
+ 1417  svn list svn://192.168.0.10/product
+ 1418  svn list svn://192.168.0.10/product/tags
+ 1419  svn list svn://192.168.0.10/product/tags | ls -lrt
+ 1420  man svn list
+ 1421  exit
+ 1422  ls
+ 1423  svn list svn://192.168.0.10/product/tags 
+ 1424  svn list -rt  svn://192.168.0.10/product/tags 
+ 1425  svn list   svn://192.168.0.10/product/tags 
+ 1426  man svn
+ 1427  msn svn list
+ 1428  svn list
+ 1429  svn list help
+ 1430  svn help
+ 1431  svn help list
+ 1432  svn log URL/tags --limit 1
+ 1433  svn log svn://192.168.0.10  URL/tags --limit 1
+ 1434  svn log svn://192.168.0.10/product  URL/tags --limit 1
+ 1435  svn log svn://192.168.0.10/product 
+ 1436  svn log svn://192.168.0.10/product tail -1
+ 1437  svn log svn://192.168.0.10/product/tags
+ 1438  svn log svn://192.168.0.10/product/tags --limit 1
+ 1439  svn list svn://192.168.0.10/product/tags
+ 1440  svn list svn://192.168.0.10/product/tags | more
+ 1441  svn list svn://192.168.0.10/product/tags 
+ 1442  svn log svn://192.168.0.10/product/tags --limit 1
+ 1443  svn log svn://192.168.0.10/product/tags --limit 1 
+ 1444  svn log svn://192.168.0.10/product/tags --limit 1  | grep r
+ 1445  svn log svn://192.168.0.10/product/tags --limit 1  | grep r | awk '{print $1}'
+ 1446  svn log -v --limit 1 tagsURL | awk '/^   A/ { print $2 }'
+ 1447  svn log -v --limit 1 svn://192.168.0.10/product/tags | awk '/^   A/ { print $2 }'
+ 1448  svn log -v --limit 1 svn://192.168.0.10/product/tags 
+ 1449  svn log -v --limit 1 svn://192.168.0.10/product/tags
+ 1450  svn log -v --limit 1 svn://192.168.0.10/product/tags | | awk '/^   A/ { print $2 }'
+ 1451  svn log -v --limit 1 svn://192.168.0.10/product/tags | awk '/^   A/ { print $2 }'
+ 1452  ls
+ 1453  ls -al
+ 1454  cd
+ 1455  ls
+ 1456  ls -al
+ 1457  cd workspace
+ 1458  ls
+ 1459  cd docker
+ 1460  ls
+ 1461  ls -la
+ 1462  cd docker_dev
+ 1463  ls
+ 1464  ls -al
+ 1465  vi Dockerfile
+ 1466  svn log -v --limit 1 svn://192.168.0.10/product/tags | awk '/^   A/ { print $2 }'
+ 1467  svn log -v --limit 1 svn://192.168.0.10/product/tags | awk '/^   A/ { print $2 }' 
+ 1468  vi Docker
+ 1469  ls -al
+ 1470  vi Dockerfile
+ 1471  vi Docker
+ 1472  vi Dockerfile
+ 1473  svn log -v --limit 1 tagsURL | awk '/^   A/ { print $2 }'
+ 1474  svn log -v --limit 1 svn://192.168.0.10/product/tags | awk '/^   A/ { print $2 }'
+ 1475  svn log -v --limit 1 svn://192.168.0.10/product/tags | awk '/^   A/ { print "svn://192.168.0.10"$2 }' 
+ 1476  svn log -v --limit 1 svn://192.168.0.10/product/tags | awk '/^   A/ { print "svn://192.168.0.10/product/"$2 }' 
+ 1477  svn log -v --limit 1 svn://192.168.0.10/product/tags | awk '/^   A/ { print "svn://192.168.0.10/product"$2 }' 
+ 1478  svn list //192.168.0.10/product/tags/GOLDILOCKS_Venus_3_1_12_tag
+ 1479  svn list svn://192.168.0.10/product/tags/GOLDILOCKS_Venus_3_1_12_tag
+ 1480  cd
+ 1481  ls
+ 1482  ls -al
+ 1483  ls -la
+ 1484  cd workspace
+ 1485  cd
+ 1486  l
+ 1487  11~2
+ 1488  ls
+ 1489  ls -al
+ 1490  ls -la
+ 1491  rm -rf .git 
+ 1492  ls -la
+ 1493  cd script
+ 1494  ls
+ 1495  ls -al
+ 1496  ls -la
+ 1497  cd ..
+ 1498  ls
+ 1499  ls -la
+ 1500  cd script
+ 1501  ls
+ 1502  ls -la
+ 1503  cd ..
+ 1504  ls
+ 1505  ls -la
+ 1506  vi Dockerfile
+ 1507  ls -al
+ 1508  cd script
+ 1509  ls
+ 1510  ls -al
+ 1511  vi svn_checkout.sh 
+ 1512  ls -la
+ 1513  cd ..
+ 1514  ls
+ 1515  ls -al
+ 1516  vi Docker
+ 1517  vo Dockerfile
+ 1518  vi Dockerfile
+ 1519  docker build -t goldilocks_package .
+ 1520  ls
+ 1521  vi Dockerfile
+ 1522  docker build -t goldilocks_package .
+ 1523  ld
+ 1524  cd script
+ 1525  ls
+ 1526  ls -al
+ 1527  sh svn_checkout.sh 
+ 1528  vi svn_checkout.sh
+ 1529  sh svn_checkout.sh 
+ 1530  vi svn_checkout.shk
+ 1531  vi svn_checkout.sh
+ 1532  sh svn_checkout.sh 
+ 1533  vi svn_checkout.sh
+ 1534  sh svn_checkout.sh 
+ 1535  vi svn_checkout.sh:3
+ 1536  vi svn_checkout.sh
+ 1537  sh svn_checkout.sh
+ 1538  vi svn_checkout.sh
+ 1539  cd ..
+ 1540  ls
+ 1541  docker build -t goldilocks_package .
+ 1542  vi svn_checkout.sh
+ 1543  ls
+ 1544  cd script
+ 1545  ls
+ 1546  vi svn_checkout.sh
+ 1547  d ..
+ 1548  cd ..
+ 1549  docker build -t goldilocks_package .
+ 1550  ls 
+ 1551  ls -la
+ 1552  vi script/svn_checkout.sh
+ 1553  cd script
+ 1554  sh svn_checkout.sh
+ 1555  vi script/svn_checkout.sh
+ 1556  ls -la
+ 1557  vi svn_checkout.sh
+ 1558  sh svn_checkout.sh 
+ 1559  vi svn_checkout.sh
+ 1560  sh svn_checkout.sh 
+ 1561  ls -la
+ 1562  vi svn_checkout.sh
+ 1563  sh svn_checkout.sh 
+ 1564  vi svn_checkout.sh
+ 1565  sh svn_checkout.sh 
+ 1566  vi svn_checkout.sh
+ 1567  sh svn_checkout.sh
+ 1568  vi svn_checkout.sh
+ 1569  sh svn_checkout.sh
+ 1570  vi svn_checkout.sh
+ 1571  sh svn_checkout.sh
+ 1572  vi svn_checkout.sh
+ 1573  sh svn_checkout.sh 
+ 1574  vi svn_checkout.sh
+ 1575  sh svn_checkout.sh 
+ 1576  vi svn_checkout.sh
+ 1577  sh svn_checkout.sh 
+ 1578  vi svn_checkout.sh
+ 1579  sh svn_checkout.sh 
+ 1580  vi svn_checkout.sh
+ 1581  sh svn_checkout.sh 
+ 1582  vi svn_checkout.sh
+ 1583  sh svn_checkout.sh 
+ 1584  vi svn_checkout.sh
+ 1585  sh svn_checkout.sh 
+ 1586  vi svn_checkout.sh
+ 1587  sh svn_checkout.sh 
+ 1588  vi svn_checkout.sh
+ 1589  ls
+ 1590  ls 
+ 1591  cd ..
+ 1592  vi Docker
+ 1593  vi Dockerfile
+ 1594  ls -lak
+ 1595  ls -la
+ 1596  docker build -t goldilocks_package .
+ 1597  ls -al
+ 1598  vi Dockerfile
+ 1599  echo $LANG
+ 1600  docker build -t goldilocks_package .
+ 1601  ssh rel@192.168.0.205
+ 1602  ls
+ 1603  vi Docker
+ 1604  vi Dockerfile
+ 1605  locale-gen
+ 1606  vi Dockerfile
+ 1607  yum search locale-gen
+ 1608  vi Dockerfile
+ 1609  docker build -t goldilocks_package .
+ 1610  vi Dockerfile
+ 1611  docker build -t goldilocks_package .
+ 1612  vi Dockerfile
+ 1613  docker build -t goldilocks_package .
+ 1614  localedef
+ 1615  vi Dockerfile
+ 1616  docker build -t goldilocks_package .
+ 1617  vi Dockerfile
+ 1618  docker build -t goldilocks_package .
+ 1619  vi Dockerfile
+ 1620  docker build -t goldilocks_package .
+ 1621  vi Dockerfile
+ 1622  docker build -t goldilocks_package .
+ 1623  vi Dockerfile
+ 1624  444444444444
+ 1625  localectl
+ 1626  ls
+ 1627  ls -al
+ 1628  vi Dockerfile
+ 1629  localectl
+ 1630  vi Dockerfile
+ 1631  cls
+ 1632  ls -al
+ 1633  top
+ 1634  hotp
+ 1635  ^M
+ 1636  ls
+ 1637  ls -al
+ 1638  cd workspace
+ 1639  ls
+ 1640  vargrant
+ 1641  vagant
+ 1642  vargrant
+ 1643  vagarnt
+ 1644  cd
+ 1645  wget https://releases.hashicorp.com/vagrant/2.0.3/vagrant_2.0.3_x86_64.rpm\?_ga\=2.136806580.500671569.1522313143-485355871.1520329266
+ 1646  ls
+ 1647  ls -la
+ 1648  cp vagrant_2.0.3_x86_64.rpm\?_ga=2.136806580.500671569.1522313143-485355871.1520329266 vagrant_2.0.3_x86_64.rpm
+ 1649  sudo rpm -Uvh vagrant_2.0.3_x86_64.rpm 
+ 1650  vagrant
+ 1651  ls -la
+ 1652  cd
+ 1653  ls- la
+ 1654  mkdir vagrant_getting_start
+ 1655  rm vagrant_getting_start
+ 1656  rm -rf vagrant_getting_start
+ 1657  mkdir start1
+ 1658  cd start1
+ 1659  ls
+ 1660  vagrant init
+ 1661  ls -al
+ 1662  l -al
+ 1663  vi Vagrantfile
+ 1664  cd ..
+ 1665  ls
+ 1666  ls -al
+ 1667  rm -rf start1
+ 1668  ls
+ 1669  cd workspace
+ 1670  ls
+ 1671  mkdir vagrant
+ 1672  cd vargrant
+ 1673  ls
+ 1674  cd vagrant
+ 1675  ls
+ 1676  ls -al
+ 1677  vagrant init 
+ 1678  ls -al
+ 1679  vi Vagrantfile
+ 1680  vagrant box add hashicorp/precise64
+ 1681  ll
+ 1682  vagrant box add hashicorp/precise64 --force
+ 1683  ls
+ 1684  vi Vagrantfile
+ 1685  vagrant up
+ 1686  vagrant ssh
+ 1687  ls -al
+ 1688  vi Vagrantfile
+ 1689  vargrant up
+ 1690  vagrant up
+ 1691  vargrant ls
+ 1692  vagrant ls
+ 1693  vagrant down
+ 1694  vagrant list
+ 1695  vagrant ssh
+ 1696  vagrant down
+ 1697  vagrant halt
+ 1698  ls
+ 1699  vagrant up 
+ 1700  vagrant halt
+ 1701  ls -al
+ 1702  rm .vagrant
+ 1703  ls
+ 1704  ls -al
+ 1705  cd .vagrant
+ 1706  ls
+ 1707  ls- al
+ 1708  cd machines
+ 1709  ls
+ 1710  ls -al
+ 1711  du -0sh .
+ 1712  du -sh .
+ 1713  cd default
+ 1714  ls
+ 1715  ls -la
+ 1716  cd va
+ 1717  ls
+ 1718  cd virtualbox
+ 1719  ls
+ 1720  ls -al
+ 1721  cd ..
+ 1722  cd. .
+ 1723  cd ..
+ 1724  ls
+ 1725  ls a-l
+ 1726  cd ..
+ 1727  ls
+ 1728  ls -al
+ 1729  cd Vagrantfile
+ 1730  vi Vagrantfile
+ 1731  vagrant up
+ 1732  vagrant ssh
+ 1733  ps -ef | grep Virtual
+ 1734  ps -ef | grep var
+ 1735  s -al
+ 1736  ls -la
+ 1737  ps
+ 1738  ps -ef \\
+ 1739  
+ 1740  ps -ef | grep var
+ 1741  ls
+ 1742  ls -al
+ 1743  cd
+ 1744  ls
+ 1745  cd
+ 1746  ls
+ 1747  cd workspace
+ 1748  ls
+ 1749  svn list svn://192.168.0.200/3rd_iter
+ 1750  ls -al
+ 1751  svn list svn://192.168.0.220/3rd_iter
+ 1752  svn list svn://192.168.0.220/3rd_iter/tags
+ 1753  svn list svn://192.168.0.220/3rd_iter/trunks
+ 1754  svn list svn://192.168.0.220/3rd_iter/trunk
+ 1755  svn list svn://192.168.0.220/3rd_iter/trun
+ 1756  svn list svn://192.168.0.220/3rd_iter/trunk
+ 1757  svn co svn://192.168.0.220/3rd_iter/trunk dbm
+ 1758  cd dbm
+ 1759  ls
+ 1760  cd 3rd
+ 1761  ls
+ 1762  ls -al
+ 1763  cd ..
+ 1764  ls
+ 1765  ls -al
+ 1766  cd src/goldilocks/ls
+ 1767  cd src/goldilocks/l
+ 1768  cd src/goldilocks/
+ 1769  l
+ 1770  scd src
+ 1771  ls
+ 1772  ls a-l
+ 1773  cd src
+ 1774  ls
+ 1775  ls -al
+ 1776  cd dbm
+ 1777  ls
+ 1778  ls -al
+ 1779  cd dbmDiskLogManager
+ 1780  ls
+ 1781  ls- la
+ 1782  ll
+ 1783  vi dbmDiskReader.cpp
+ 1784  cd ..
+ 1785  ls
+ 1786  ls -al
+ 1787  cd ..
+ 1788  ls
+ 1789  ls -al
+ 1790  cd ..
+ 1791  ls
+ 1792  cd util
+ 1793  ls
+ 1794  ls -al
+ 1795  grep dbmDiskReader *
+ 1796  vi dbmReplSender.cpp
+ 1797  ls -al
+ 1798  cd ..
+ 1799  ls
+ 1800  cd src
+ 1801  ls
+ 1802  cd dbm
+ 1803  ls
+ 1804  ls -al
+ 1805  cd dbmDiskLogManager
+ 1806  ls
+ 1807  ls -al
+ 1808  vi dbmDiskReader.cpp
+ 1809  vi $GOLDILOCKS_DATA/conf/goldilocks.properties.conf
+ 1810  cd
+ 1811  ls
+ 1812  ls -al
+ 1813  ls
+ 1814  ls a-l
+ 1815  clear
+ 1816  ls -al
+ 1817  ls
+ 1818  ls 
+ 1819  ls- al
+ 1820  cd
+ 1821  ls
+ 1822  ls- al
+ 1823  cd workspace
+ 1824  ls
+ 1825  ls -al
+ 1826  cd vagrant
+ 1827  ls
+ 1828  ls- al
+ 1829  vagrant up 
+ 1830  vagrant ssh 
+ 1831  ls
+ 1832  ls -al
+ 1833  vi Vagrantfile
+ 1834  vagrant halt
+ 1835  vagrant up
+ 1836  vagrant ssh 
+ 1837  ls
+ 1838  ls -al
+ 1839  vagrant halt
+ 1840  ls
+ 1841  ls -al
+ 1842  vi Vagrantfile
+ 1843  vagrant status
+ 1844  vagrant plugin install vagrant-hostsupdater
+ 1845  vagrant destroy
+ 1846  ls -al
+ 1847  ll
+ 1848  cd
+ 1849  ls
+ 1850  ls -al
+ 1851  ls
+ 1852  rm vagrant_2.0.3_x86_64.rpm*
+ 1853  ls -al
+ 1854  ll
+ 1855  ls -al
+ 1856  cd Python-3.6.2rc1
+ 1857  ls
+ 1858  ls -al
+ 1859  cd ..
+ 1860  ls
+ 1861  ls -al
+ 1862  cd asciinema
+ 1863  ls
+ 1864  ls -al
+ 1865  cd ..
+ 1866  ls -al
+ 1867  cd asciinema
+ 1868  ls
+ 1869  ls -al
+ 1870  cd ..
+ 1871  ls
+ 1872  ls -al
+ 1873  rm -rf asciinema
+ 1874  ls -al
+ 1875  cd VirtualBox\ VMs
+ 1876  ls
+ 1877  ls -la
+ 1878  cd ..
+ 1879  ls
+ 1880  ls -al
+ 1881  rm -rf VirtualBox\ VMs
+ 1882  ls -al
+ 1883  cd StandardBMT
+ 1884  ls
+ 1885  ls -al
+ 1886  cd ..
+ 1887  lls
+ 1888  ls -al
+ 1889  rm -rf StandardBMT
+ 1890  ls -al
+ 1891  l
+ 1892  s
+ 1893  ls
+ 1894  rcode
+ 1895  which rcode
+ 1896  ls
+ 1897  ls -al
+ 1898  code
+ 1899  sudo wget -O /usr/local/bin/rcode \\
+ 1900  https://raw.github.com/aurora/rmate/master/rmate
+ 1901  sudo chmod a+x /usr/local/bin/rcode
+ 1902  rcode
+ 1903  ls
+ 1904  ls a-l
+ 1905  ls -al
+ 1906  cd
+ 1907  ls
+ 1908  ls -al
+ 1909  cd .ssh
+ 1910  ls
+ 1911  ls -al
+ 1912  vi config
+ 1913  rcode
+ 1914  vi config
+ 1915  rcode
+ 1916  rcode ida.rsa
+ 1917  vi config
+ 1918  rcode ida.rsa
+ 1919  vi config
+ 1920  rcode ida.rsa
+ 1921  vi config
+ 1922  rcode ida.rsa
+ 1923  xclock
+ 1924  emacs
+ 1925  ls
+ 1926  startx
+ 1927  xclock
+ 1928  emacs
+ 1929  code
+ 1930  firefox
+ 1931  \\
+ 1932  yum seach code
+ 1933  yum search code
+ 1934  sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
+ 1935  sudo sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/vscode.repo'
+ 1936  yum check-update
+ 1937  sudo yum install code
+ 1938  code
+ 1939  which code
+ 1940  ps -ef | grep code
+ 1941  ls -al
+ 1942  ps -ef | grep code
+ 1943  ls
+ 1944  ls a-l
+ 1945  cd workspace
+ 1946  ls
+ 1947  code go
+ 1948  man code
+ 1949  which code
+ 1950  mscode
+ 1951  ls -al /usr/bin/code
+ 1952  code
+ 1953  d
+ 1954  which code
+ 1955  firefox
+ 1956  tmux
+ 1957  tumx lis
+ 1958  tmux ls
+ 1959  exit
+ 1960  tmux ls
+ 1961  tmux attach-session -t tech
+ 1962  ls
+ 1963  ls -al
+ 1964  top
+ 1965  ls -al
+ 1966  top
+ 1967  tmux
+ 1968  s
+ 1969  ls
+ 1970  l
+ 1971  exit
+ 1972  ls
+ 1973  ls -al
+ 1974  top
+ 1975  tmux attach-session -t tech
+ 1976  code
+ 1977  which code
+ 1978  vi /usr/bin/code
+ 1979  cd /usr/share/c
+ 1980  cd /usr/share/code
+ 1981  ls
+ 1982  ls -al
+ 1983  ./code
+ 1984  top
+ 1985  ps -ef | grep code
+ 1986  ls a-l
+ 1987  ls -la
+ 1988  strace code
+ 1989  strace ./code
+ 1990  ls
+ 1991  ls -al
+ 1992  cd
+ 1993  ls
+ 1994  ls -al
+ 1995  pwd
+ 1996  xclock
+ 1997  tty; echo 'E2E32F1A-3E99-4EDF-A62A-10EDB5F81201'
+ 1998  sleep infinity
+ 1999  gdb --tty /dev/pts/36 --interpreter=mi; echo fab7778d-5eaf-46cb-943a-0a73f185bbe2
+ 2000  /home/ckh0618/projects/ConsoleApplication1/bin/x64/Debug/ConsoleApplication1.out & disown
+ 2001  echo 370868AC-9196-484C-B639-6630EB70ABB7
+ 2002  /home/ckh0618/projects/ConsoleApplication1/bin/x64/Debug/ConsoleApplication1.out & disown
+ 2003  echo 370868AC-9196-484C-B639-6630EB70ABB7
+ 2004  /home/ckh0618/projects/ConsoleApplication1/bin/x64/Debug/ConsoleApplication1.out & disown
+ 2005  echo 370868AC-9196-484C-B639-6630EB70ABB7
+ 2006  ls
+ 2007  ls -la
+ 2008  exit
+ 2009  top
+ 2010  netstat 
+ 2011  netstat -an | grep 1422
+ 2012  netstat -an | grep 1433
+ 2013  code
+ 2014  code --verbose
+ 2015  export 
+ 2016  export DISPLAY=192.168.0.193:0.0
+ 2017  code --verbose
+ 2018  xclock
+ 2019  code --verbose
+ 2020  wget https://go.microsoft.com/fwlink/\?LinkID\=760867
+ 2021  ll
+ 2022  mv index.html\?LinkID=760867 code.rpm
+ 2023  rpm -Uvh code.rpm
+ 2024  sudo rpm -Uvh code.rpm
+ 2025  sudo yum upgrade
+ 2026  code --verbose
+ 2027  startx
+ 2028  xclock
+ 2029  sudo yum install xclock
+ 2030  xclock
+ 2031  code
+ 2032  code --verbose
+ 2033  exit
+ 2034  code
+ 2035  pkill code
+ 2036  ls
+ 2037  cd workspace
+ 2038  ls
+ 2039  ls -al
+ 2040  xclock
+ 2041  xeyes
+ 2042  xclock
+ 2043  exot
+ 2044  exit
+ 2045  code
+ 2046  git -v
+ 2047  git --version
+ 2048  code
+ 2049  code --verbose
+ 2050  ls
+ 2051  ls -al
+ 2052  s
+ 2053  ls
+ 2054  cd
+ 2055  cls
+ 2056  ls -la
+ 2057  rm -rf code.rpm 
+ 2058  dir
+ 2059  ls -la
+ 2060  ps -ef | grep dbus
+ 2061  ls -al
+ 2062  code .
+ 2063  ls -la
+ 2064  nm
+ 2065  ls
+ 2066  tmux
+ 2067  l
+ 2068  sls -al
+ 2069  ls -al *.mp
+ 2070  ls -al *.mp3
+ 2071  rm *.mp3
+ 2072  ls -al
+ 2073  clear
+ 2074  ls
+ 2075  gsql test test
+ 2076  tmux
+ 2077  ls -al
+ 2078  tmux
+ 2079  tmus ls
+ 2080  tmux ls
+ 2081  exit
+ 2082  tmux ls
+ 2083  tmux attach-session -t tech
+ 2084  exit
+ 2085  tmux ls
+ 2086  tmux attach-session -t 3
+ 2087  exit
+ 2088  tmux attach-session -t 4
+ 2089  exit
+ 2090  tmux ls
+ 2091  tmux
+ 2092  gem
+ 2093  which gem
+ 2094  gem install jekyll
+ 2095  top
+ 2096  grep gem
+ 2097  ps -ef | grep gem
+ 2098  ls -al
+ 2099  which ruby
+ 2100  ruby --version 
+ 2101  yum install ruby
+ 2102  sudo yum upgrade ruby
+ 2103  yum install ruby
+ 2104  sudo yum install ruby
+ 2105  wget https://cache.ruby-lang.org/pub/ruby/2.5/ruby-2.5.1.tar.gz
+ 2106  gzip -cd ruby-2.5.1.tar.gz| tar xvf -
+ 2107  cd ruby-2.5.1
+ 2108  ls
+ 2109  ls -al
+ 2110  ./configure --prefix=$HOME/Software/ruby
+ 2111  ls -al
+ 2112  top
+ 2113  make -j 16
+ 2114  make install
+ 2115  cd
+ 2116  ls
+ 2117  vi .zshrc
+ 2118  vi .zsh_profile
+ 2119  cd 
+ 2120  ls
+ 2121  ls -al
+ 2122  cd Software
+ 2123  ls
+ 2124  cd ruby
+ 2125  ls
+ 2126  ls -al
+ 2127  cd bin 
+ 2128  ls
+ 2129  ls -la
+ 2130  cd ..
+ 2131  ls -la
+ 2132  which gem
+ 2133  cd
+ 2134  ls
+ 2135  ls -al
+ 2136  source .zsh_profile
+ 2137  ruby
+ 2138  which ruby
+ 2139  ls -la
+ 2140  gem install jekyll
+ 2141  ll
+ 2142  ls -al
+ 2143  cd Software
+ 2144  ls
+ 2145  cd ruby
+ 2146  ls
+ 2147  ls -al
+ 2148  cd bin 
+ 2149  ls -al
+ 2150  cd
+ 2151  ls
+ 2152  ls -la
+ 2153  rcd
+ 2154  ls
+ 2155  ls -al
+ 2156  cd workspace
+ 2157  ls
+ 2158  jekyll
+ 2159  jekyll new site
+ 2160  cd site
+ 2161  ls
+ 2162  ls al
+ 2163  ls- la
+ 2164  jekyll serve
+ 2165  bundle jekyll serve
+ 2166  bundle serve
+ 2167  bundle
+ 2168  whic bundle
+ 2169  which bundle
+ 2170  gem install bundle
+ 2171  which bundle
+ 2172  bundle
+ 2173  which bundle
+ 2174  ls
+ 2175  ls -la
+ 2176  jekyll serve
+ 2177  gem install minima
+ 2178  jekyll serve
+ 2179  jekyll serve 0.0.0.0
+ 2180  ls -al
+ 2181  jekyll serve help
+ 2182  jekyll help
+ 2183  jekyll server
+ 2184  vi _config.yml
+ 2185  jekyll server
+ 2186  ls
+ 2187  ls -al
+ 2188  jekyll
+ 2189  ls
+ 2190  vi _config.yml
+ 2191  cd
+ 2192  ls
+ 2193  wget https://github.com/mmistakes/skinny-bones-jekyll/archive/master.zip
+ 2194  unzip master.zip
+ 2195  mv skinny-bones-jekyll-master new_site
+ 2196  ls
+ 2197  cd new_site
+ 2198  ls
+ 2199  bundle install 
+ 2200  jekyll serve
+ 2201  gem install addressable
+ 2202  jekyll serve
+ 2203  gem install addressable-2.4.0
+ 2204  vi _config.yml
+ 2205  bundle serve
+ 2206  bundle
+ 2207  bundle install
+ 2208  jekyll serve
+ 2209  bundle install addressable-2.4.0
+ 2210  gem install addressable-2.4.0
+ 2211  gem install addressable
+ 2212  gem install addressable-2.4.0
+ 2213  jekyll serve
+ 2214  jekyll server
+ 2215  jekyll build
+ 2216  go get 
+ 2217  cd
+ 2218  go get
+ 2219  nsap
+ 2220  snap
+ 2221  go get -v github.com/gohugoio/hugo
+ 2222  huho
+ 2223  hugo
+ 2224  cd
+ 2225  clear
+ 2226  ls -al
+ 2227  hugo help new
+ 2228  hugo new doc
+ 2229  hugo new site site
+ 2230  dir
+ 2231  c dsite
+ 2232  ls
+ 2233  ls -la
+ 2234  cd site
+ 2235  sl
+ 2236  ls
+ 2237  rm -rf 
+ 2238  cd ..
+ 2239  ls -al
+ 2240  rm -rf site
+ 2241  cd workspace
+ 2242  ls
+ 2243  hugo new site site2
+ 2244  cd site2
+ 2245  ls
+ 2246  ls -al
+ 2247  hugo
+ 2248  hugo 
+ 2249  hugo  serve
+ 2250  vi config.toml
+ 2251  dir
+ 2252  ls -al
+ 2253  cd themes
+ 2254  ls
+ 2255  ls -al
+ 2256  go get -v github.com/gohugoio/hugo
+ 2257  https://github.com/hdcdstr8fwd/foundation-theme
+ 2258  cd ..
+ 2259  ls
+ 2260  vi config.toml
+ 2261  ls
+ 2262  cd themes
+ 2263  ls
+ 2264  ls -al
+ 2265  git clone https://github.com/hdcdstr8fwd/foundation-theme.git
+ 2266  ll
+ 2267  hugo -t foundation-theme
+ 2268  ls
+ 2269  cd ..
+ 2270  ls
+ 2271  ls -la
+ 2272  cd config
+ 2273  vi config.toml
+ 2274  ls
+ 2275  cd workspace
+ 2276  ls
+ 2277  cd site2
+ 2278  ls
+ 2279  cd themes
+ 2280  ls
+ 2281  hugo
+ 2282  vi config.toml
+ 2283  hugo
+ 2284  vi config.toml:4
+ 2285  vi config.toml
+ 2286  hugo
+ 2287  vi config.toml
+ 2288  hugo
+ 2289  vi config.toml
+ 2290  ls
+ 2291  foundation-theme
+ 2292  ls
+ 2293  cd ..
+ 2294  ls -al
+ 2295  vi config.toml
+ 2296  hugo
+ 2297  hugo serve
+ 2298  hugo serve --bind="0.0.0.0"
+ 2299  vi config.toml
+ 2300  hugo server
+ 2301  hugo server --bind="0.0.0.0"
+ 2302  ls
+ 2303  vi config.toml
+ 2304  hugo server --bind="0.0.0.0"
+ 2305  hugo -t themename
+ 2306  hugo -t foundation-theme
+ 2307  cd themes
+ 2308  cd foundation-theme
+ 2309  ls
+ 2310  ls -la
+ 2311  cd examplesite
+ 2312  ls
+ 2313  ls -al
+ 2314  cd ..
+ 2315  ls -al
+ 2316  vi theme.toml
+ 2317  cd ..
+ 2318  hugo -t Hugof
+ 2319  hugo 
+ 2320  hugo  help
+ 2321  hugo new help
+ 2322  hugo new
+ 2323  hugo help new
+ 2324  hugo new theme
+ 2325  hugo new theme a
+ 2326  ls
+ 2327  cd ..
+ 2328  git clone --depth 1 --recursive https://github.com/gohugoio/hugoThemes.git themes
+ 2329  ls -al
+ 2330  git clone --depth 1 --recursive https://github.com/gohugoio/hugoThemes.git themes
+ 2331  rm -rf themes
+ 2332  git clone --depth 1 --recursive https://github.com/gohugoio/hugoThemes.git themes
+ 2333  cd
+ 2334  ls
+ 2335  cd workspace
+ 2336  cd site2
+ 2337  ls
+ 2338  ls- al
+ 2339  cd themes
+ 2340  ls
+ 2341  ls- al
+ 2342  ll
+ 2343  ls -al foundation-theme
+ 2344  ls
+ 2345  ls -al
+ 2346  cd themes
+ 2347  ls
+ 2348  cd ..
+ 2349  hugo server -t hugo-geo 
+ 2350  hugo server -t hugo-geo -binding="0.0.0.0"
+ 2351  hugo server -t hugo-geo -b="0.0.0.0"
+ 2352  hugo server -t hugo-geo --bind="0.0.0.0"
+ 2353  hugo server -t hugo-d--bind="0.0.0.0"
+ 2354  hugo server -t hugo-d --bind="0.0.0.0"
+ 2355  hugo server -t hugo-paper --bind="0.0.0.0"
+ 2356  vi theme.toml
+ 2357  ls -al
+ 2358  vi config.toml
+ 2359  hugo server -t hugo-paper --bind="0.0.0.0"
+ 2360  vi config.toml
+ 2361  hugo server -t hugo-paper 
+ 2362  vi config.toml
+ 2363  ruby -v
+ 2364  which ruby
+ 2365  gem 0v
+ 2366  gem -v
+ 2367  ,s
+ 2368  ls
+ 2369  cdf ..
+ 2370  ls
+ 2371  cd. .
+ 2372  cd ..
+ 2373  ls
+ 2374  cd site
+ 2375  jekyll
+ 2376  jekyll serve
+ 2377  vi config.toml
+ 2378  ls -la
+ 2379  vi _config.yml
+ 2380  jekyll serve
+ 2381  ls
+ 2382  ls -al
+ 2383  vi _config.yml
+ 2384  jekyll serve
+ 2385  ls
+ 2386  cd ..
+ 2387  ls
+ 2388  git clone https://github.com/aksakalli/jekyll-doc-theme.git
+ 2389  cd jekyll-doc-theme
+ 2390  ls
+ 2391  gem install 
+ 2392  bundle install 
+ 2393  bundle exec jekyll serve
+ 2394  bundle install 
+ 2395  bundle exec jekyll serve
+ 2396  bundle exec bundle install
+ 2397  ls -la
+ 2398  bundle install
+ 2399  b
+ 2400  cd ..
+ 2401  ls
+ 2402  cd site
+ 2403  ls
+ 2404  gem "jekyll-docs-theme"
+ 2405  vi Gemfile
+ 2406  vi _config.yml
+ 2407  bundle
+ 2408  which ruby
+ 2409  bundle
+ 2410  ls -la
+ 2411  bundle
+ 2412  whichwhich
+ 2413  which bundle
+ 2414  vi `which bundle`
+ 2415  bundle install
+ 2416  ruby --version
+ 2417  yum remove ruby
+ 2418  sudo yum remove ruby
+ 2419  ruby --version
+ 2420  bundle install
+ 2421  ls
+ 2422  bundle server
+ 2423  bundle serve
+ 2424  jekyll serve
+ 2425  ls
+ 2426  vi index.md
+ 2427  cd 
+ 2428  ls -al
+ 2429  cd
+ 2430  cd workspace
+ 2431  ls
+ 2432  rm -rf site*
+ 2433  ls -al
+ 2434  rm -rf site*
+ 2435  ls -al
+ 2436  jekyll new site doc
+ 2437  cd doc
+ 2438  ls
+ 2439  cd doc
+ 2440  ls
+ 2441  doc
+ 2442  ls -al
+ 2443  site
+ 2444  ls
+ 2445  cd site
+ 2446  ls -al
+ 2447  ls
+ 2448  ls -al
+ 2449  cd
+ 2450  ls -al
+ 2451  rm -rf site\ doc
+ 2452  jekyll new mydoc
+ 2453  cd mydoc
+ 2454  ls
+ 2455  jekyll serve
+ 2456  vi _config.yml
+ 2457  jekyll serve
+ 2458  ls
+ 2459  vi Gemfile
+ 2460  wget https://github.com/tomjoht/documentation-theme-jekyll/archive/gh-pages.zip
+ 2461  ls
+ 2462  cd ..
+ 2463  unzip mydoc/gh-pages.zip
+ 2464  ls -al
+ 2465  cd doc
+ 2466  ls
+ 2467  cd documentation-theme-jekyll-gh-pages
+ 2468  ls
+ 2469  ls -al
+ 2470  gem install
+ 2471  bundle install
+ 2472  ls
+ 2473  jekyll serve
+ 2474  bundle exec jekyll serve
+ 2475  ls
+ 2476  vi _config.yml
+ 2477  ls
+ 2478  bundle exec jekyll serve
+ 2479  yum  remove bundle
+ 2480  sudo yum remove bundle
+ 2481  vi /usr/local/bin/bundle
+ 2482  rm -rf /usr/local/bin/bundle 
+ 2483  sudo rm  /usr/local/bin/bundle 
+ 2484  rmsgks
+ 2485  bundle exec jekyll serve
+ 2486  ls
+ 2487  ls -al
+ 2488  vi Gemfile
+ 2489  cd _data
+ 2490  ls
+ 2491  ls -al
+ 2492  cd ..
+ 2493  ls -al
+ 2494  ls
+ 2495  ls -al
+ 2496  jekyll serve
+ 2497  bundle exec jekyll serve
+ 2498  vi _config.yml
+ 2499  bundle exec jekyll serve
+ 2500  ls
+ 2501  ls -al
+ 2502  vi index.md
+ 2503  bundle exec jekyll serve
+ 2504  ll
+ 2505  bundle exec jekyll build
+ 2506  bundle exec jekyll serve
+ 2507  docker-compose build --no-cache && docker-compose up
+ 2508  ls
+ 2509  ls -al
+ 2510  find ./ -name "package.*"
+ 2511  find ./ 
+ 2512  find ./  | grep packa
+ 2513  ks 
+ 2514  ls -al
+ 2515  npm
+ 2516  bundle exec jekyll build
+ 2517  ll
+ 2518  ls -al
+ 2519  cd _site
+ 2520  ls
+ 2521  ls -al
+ 2522  cd ..
+ 2523  ls
+ 2524  ls -al
+ 2525  chown ckh0618:ckh0618 _site
+ 2526  chown -R  ckh0618:ckh0618 _site
+ 2527  sudo chown -R  ckh0618:ckh0618 _site
+ 2528  ls -al
+ 2529  ls
+ 2530  bundle exec jekyll 
+ 2531  bundle exec jekyll s
+ 2532  ls
+ 2533  lll
+ 2534  docker ps -a
+ 2535  docker ps
+ 2536  bundle exec jekyll build
+ 2537  bundle exec jekyll s
+ 2538  ll
+ 2539  cd css
+ 2540  ls
+ 2541  ls -la
+ 2542  cd ..
+ 2543  bundle exec jekyll s
+ 2544  cd w
+ 2545  cd wprls[ac
+ 2546  cd workspace
+ 2547  ls
+ 2548  cd mydoc
+ 2549  ls
+ 2550  ls -la
+ 2551  cd ..
+ 2552  ls -la
+ 2553  cd jekyll-doc-theme
+ 2554  ls -al
+ 2555  cd js
+ 2556  lks
+ 2557  ls
+ 2558  ls -al
+ 2559  cd ..
+ 2560  find ./ -name "toc.js"
+ 2561  ls -al
+ 2562  vi allposts.html
+ 2563  vi index.html
+ 2564  cd ..
+ 2565  ls
+ 2566  rm -rf jekyll-doc-theme
+ 2567  cd doc
+ 2568  cd documentation-theme-jekyll-gh-pages
+ 2569  ls -al
+ 2570  cd js
+ 2571  ls
+ 2572  ls -al
+ 2573  cd ..
+ 2574  ls -al
+ 2575  ls
+ 2576  ls -al
+ 2577  vi _config.yml
+ 2578  bundle exec jekyll s
+ 2579  jekyll serve
+ 2580  bundle exec jekyll s
+ 2581  ls -al
+ 2582  cd _site
+ 2583  ls
+ 2584  vi index.html
+ 2585  ls -al
+ 2586  bundle exec jekyll s
+ 2587  vi Nconfig
+ 2588  ls -al config*
+ 2589  ls -al
+ 2590  cd ..
+ 2591  ls
+ 2592  bundle exec jekyll
+ 2593  bundle exec jekyll -s _site
+ 2594  bundle exec jekyll -s _sites
+ 2595  ls
+ 2596  bundle exec jekyll -s=_site
+ 2597  bundle exec jekyll -s
+ 2598  bundle exec jekyll clean 
+ 2599  ls -al
+ 2600  cd _site
+ 2601  ls
+ 2602  bundle exec jekyll
+ 2603  bundle exec jekylls\n: 1522826088:0;bundle exec jekyll s
+ 2604  ls
+ 2605  ls -al
+ 2606  cd ..
+ 2607  ls
+ 2608  ls -al
+ 2609  mv documentation-theme-jekyll-gh-pages goldilocks_docs
+ 2610  ls a-l
+ 2611  cd goldilocks_d
+ 2612  cd goldilocks_doc
+ 2613  cd goldilocks_docs
+ 2614  ls
+ 2615  ls -al
+ 2616  vi _config.yml
+ 2617  https://github.com/sunjesoft/sunjesoft.github.io.git
+ 2618  cd ..
+ 2619  ls
+ 2620  git clone https://github.com/sunjesoft/sunjesoft.github.io.git
+ 2621  cd sunjesoft.github.io
+ 2622  ls
+ 2623  ls -al
+ 2624  cd ..
+ 2625  ls
+ 2626  ls -la
+ 2627  cd sunjesoft.github.io
+ 2628  ls
+ 2629  ls -al
+ 2630  git checkout -b code
+ 2631  ls -la
+ 2632  cd ..
+ 2633  ls
+ 2634  cd goldilocks_dcs
+ 2635  cd goldilocks_docs
+ 2636  dir
+ 2637  bundle exec jekyll clean 
+ 2638  ls -al
+ 2639  cp -R * ../sunjesoft.github.io/
+ 2640  cd ..
+ 2641  cd sunjesoft.github.io
+ 2642  ls
+ 2643  ls -al
+ 2644  cat > package.json 
+ 2645  vi package.json
+ 2646  ls -al
+ 2647  cat > gulpfile.js
+ 2648  npm install
+ 2649  ls
+ 2650  ls -al
+ 2651  vi .gitignore
+ 2652  ls -al
+ 2653  bundle exec jekyll build
+ 2654  vi node_modules/balanced-match/README.md
+ 2655  ls -al
+ 2656  bundle exec jekyll s
+ 2657  vi node_modules/balanced-match/README.md
+ 2658  rm node_modules/balanced-match/README.md
+ 2659  bundle exec jekyll s
+ 2660  rm node_modules/brace-expansion/README.md
+ 2661  rm -rf node_modules
+ 2662  bundle exec jekyll s
+ 2663  ls -al
+ 2664  vi _data
+ 2665  cd _data
+ 2666  ls
+ 2667  ls -al
+ 2668  vi tags.yml
+ 2669  cd ..
+ 2670  ls -al
+ 2671  bundle exec jekyll clean 
+ 2672  ls -la
+ 2673  cd js
+ 2674  ls
+ 2675  ls -al
+ 2676  cd ..
+ 2677  ls -la
+ 2678  vi update.sh
+ 2679  vi update.sh 
+ 2680  git status
+ 2681  ls -la
+ 2682  vi _config.yml
+ 2683  bundle exec jekyll s
+ 2684  docker
+ 2685  ls
+ 2686  cd 
+ 2687  s
+ 2688  ls
+ 2689  cd workspace
+ 2690  ls
+ 2691  ls -al
+ 2692  cd docker_goldilocks_monitoring
+ 2693  ls
+ 2694  ls -al
+ 2695  docker-compose build 
+ 2696  docker-compose up
+ 2697  docker ps 
+ 2698  docker ps -a
+ 2699  docker compose down
+ 2700  docker-compose down
+ 2701  docker network ls
+ 2702  docker network rm 46ff3809372d 7f3a98cfd7bd
+ 2703  docker-compose up
+ 2704  docker-compose down
+ 2705  ls
+ 2706  cd ..
+ 2707  ls
+ 2708  cd docker_goldilocks_monitoring
+ 2709  ls
+ 2710  ls -la
+ 2711  cd dockerfiles
+ 2712  ls
+ 2713  ls -al
+ 2714  cd goldilocks_package
+ 2715  ls
+ 2716  ls -al
+ 2717  sftp 
+ 2718  sftp rel@192.168.0.205
+ 2719  cd
+ 2720  ls -la
+ 2721  cd .ssh
+ 2722  ls
+ 2723  ls -la
+ 2724  sftp rel@192.168.0.205
+ 2725  cd
+ 2726  ls
+ 2727  sf
+ 2728  s
+ 2729  cd workspace
+ 2730  ls
+ 2731  find ./ -name "goldilocks*"
+ 2732  find ./ -name "goldilocks*.tar.gz"
+ 2733  cd docker_goldilocks_monitoring
+ 2734  ls
+ 2735  cd dockerfiles
+ 2736  ls
+ 2737  cd goldilocks_package
+ 2738  ls
+ 2739  cp ./docker_standalone/dockerfiles/goldilocks_package/goldilocks-server-venus.3.1.12-linux-x86_64.tar.gz .
+ 2740  cp ../../docker_standalone/dockerfiles/goldilocks_package/goldilocks-server-venus.3.1.12-linux-x86_64.tar.gz .
+ 2741  cp ../../../docker_standalone/dockerfiles/goldilocks_package/goldilocks-server-venus.3.1.12-linux-x86_64.tar.gz .
+ 2742  ls
+ 2743  rm goldilocks-server-venus.3.1.9-linux-x86_64.tar.gz
+ 2744  cd ..
+ 2745  ls
+ 2746  ls -al
+ 2747  cd ..
+ 2748  ls -la
+ 2749  docker-compose up
+ 2750  docker-compose down
+ 2751  docker-compose build
+ 2752  docker-compose up
+ 2753  ls
+ 2754  docker pos
+ 2755  docker ps
+ 2756  docker-compose down
+ 2757  tmux
+ 2758  docker-compose up
+ 2759  docker ps
+ 2760  docker attach 
+ 2761  docker exec -it dockergoldilocksmonitoring_g1n1_1 /bin/bash
+ 2762  x
+ 2763  ls
+ 2764  vi _config.yml
+ 2765  cd _data
+ 2766  ls
+ 2767  ls- al
+ 2768  ls -al
+ 2769  vi topnav.yml
+ 2770  docker ps
+ 2771  ls
+ 2772  cd
+ 2773  ls
+ 2774  cd workspace
+ 2775  ls
+ 2776  cd Cy
+ 2777  cd CryptoCurrencyExchange
+ 2778  ls
+ 2779  ls -al
+ 2780  cd src
+ 2781  ls
+ 2782  ls -al
+ 2783  vi PerfTest.cc
+ 2784  make
+ 2785  sh btc.sh 
+ 2786  ls
+ 2787  cd ..
+ 2788  ls -la
+ 2789  cd script
+ 2790  ls
+ 2791  gsqlnet test test -i crt_table.sql
+ 2792  ls -la
+ 2793  cd ..
+ 2794  ls
+ 2795  cd src
+ 2796  ls
+ 2797  sh btc.sh & 
+ 2798  cd
+ 2799  cd workspace
+ 2800  ls
+ 2801  cd C
+ 2802  ls
+ 2803  cd CryptoCurrencyExchange
+ 2804  ls
+ 2805  ls -al
+ 2806  cd src
+ 2807  ls
+ 2808  ls -la
+ 2809  vi eth.sh
+ 2810  sh eth.sh
+ 2811  tmux
+ 2812  hugo
+ 2813  ls
+ 2814  ls a-l
+ 2815  cd workspace
+ 2816  ls
+ 2817  mkdir goldi
+ 2818  cd goldi
+ 2819  hugo new site .
+ 2820  ll
+ 2821  hugo go
+ 2822  hugo
+ 2823  hugo help
+ 2824  hugo serve
+ 2825  hugo serve --
+ 2826  hugo serve --bind="0.0.0.0"
+ 2827  ls
+ 2828  hugo serve --bind="192.168.0.119"
+ 2829  ls
+ 2830  ls -al
+ 2831  vi data
+ 2832  cd data
+ 2833  ls
+ 2834  ls- al
+ 2835  cd ..
+ 2836  ls -al
+ 2837  vi config.html
+ 2838  vi config_toml
+ 2839  vi config.tm
+ 2840  vi config.toml
+ 2841  ll
+ 2842  git init
+ 2843  git submodule init
+ 2844  git submodule update
+ 2845  ls
+ 2846  ls -al
+ 2847  vi config.toml
+ 2848  hugo serve --bind="192.168.0.119"
+ 2849  ls
+ 2850  vi config.toml
+ 2851  hugo serve --bind="192.168.0.119"
+ 2852  ll
+ 2853  cd content
+ 2854  ls
+ 2855  ls -al
+ 2856  vi _index.md
+ 2857  cd ..
+ 2858  hugo serve --bind="192.168.0.119"
+ 2859  ls
+ 2860  cd workspace
+ 2861  ls
+ 2862  cd goldi
+ 2863  ls
+ 2864  cd content
+ 2865  ls
+ 2866  ls -al
+ 2867  vi _index.md
+ 2868  1ll
+ 2869  l
+ 2870  cd ..
+ 2871  ls
+ 2872  ls -al
+ 2873  cd content
+ 2874  ls
+ 2875  vi _index.md
+ 2876  cd ..
+ 2877  ls -al
+ 2878  cd layouts
+ 2879  ls
+ 2880  ls -al
+ 2881  cd ..
+ 2882  ls -al
+ 2883  cd public
+ 2884  ls
+ 2885  vi index.xml
+ 2886  vi tags/index.xml 
+ 2887  cd ..
+ 2888  ls
+ 2889  cd archetypes
+ 2890  ls
+ 2891  ls -al
+ 2892  vi default.md
+ 2893  cd ..
+ 2894  tree
+ 2895  ls
+ 2896  cd content
+ 2897  ls
+ 2898  mkdir tt
+ 2899  cd tt
+ 2900  cp ../_index.md index.md
+ 2901  cd ..
+ 2902  ls
+ 2903  cd ..
+ 2904  ls
+ 2905  hugo serve --bind="192.168.0.119"
+ 2906  ls
+ 2907  vi config.toml
+ 2908  hugo serve --bind="192.168.0.119"
+ 2909  ls
+ 2910  cd content
+ 2911  ls
+ 2912  ls -al
+ 2913  rm tt
+ 2914  ls -al
+ 2915  rm -rf tt
+ 2916  ls -al
+ 2917  mkdir about
+ 2918  mkdir post
+ 2919  mkdir data
+ 2920  ls a-l
+ 2921  cd about
+ 2922  ls
+ 2923  cp ../_index.md .
+ 2924  cd ..
+ 2925  ls
+ 2926  hugo serve --bind="192.168.0.119"
+ 2927  ll
+ 2928  cd ..
+ 2929  hugo serve --bind="192.168.0.119"
+ 2930  ls
+ 2931  find ./ -name "_index.md"
+ 2932  vi ./content/about/_index.md
+ 2933  vi ./themes/docdock/exampleSite/content/_index.md
+ 2934  ls
+ 2935  ls -al
+ 2936  cd content
+ 2937  cp -R ../themes/docdock/exampleSite/content/* .
+ 2938  ls -al
+ 2939  cd ..
+ 2940  ls
+ 2941  hugo serve --bind="192.168.0.119"
+ 2942  find ./ -name "credit.md"
+ 2943  find ./ -name "credits.md"
+ 2944  vi ./content/credits.md
+ 2945  hugo serve --bind="192.168.0.119"
+ 2946  ls
+ 2947  ls -al
+ 2948  cd content
+ 2949  ls
+ 2950  ls -la
+ 2951  vi _index.md
+ 2952  hugo serve --bind="192.168.0.119"
+ 2953  ll
+ 2954  cd ..
+ 2955  hugo serve --bind="192.168.0.119"
+ 2956  ls
+ 2957  vi config.toml
+ 2958  hugo serve --bind="192.168.0.119"
+ 2959  ll
+ 2960  cd content
+ 2961  ls
+ 2962  tree
+ 2963  ls
+ 2964  cd content-organisation
+ 2965  ls
+ 2966  vi _index.md
+ 2967  ls
+ 2968  ls -al
+ 2969  vi logo.md
+ 2970  cd ..
+ 2971  ls
+ 2972  cd ..
+ 2973  ls
+ 2974  cd themes
+ 2975  ls
+ 2976  git clone  git clone https://github.com/matcornic/hugo-theme-learn.git
+ 2977  ll
+ 2978  mv hugo-theme-learn learn
+ 2979  ls -al
+ 2980  cd ..
+ 2981  ls
+ 2982  vi config.toml
+ 2983  hugo serve --bind="192.168.0.119"
+ 2984  hugo build
+ 2985  ls -la
+ 2986  hugo
+ 2987  hugo help
+ 2988  hugo gen
+ 2989  hugo gen doc
+ 2990  ls
+ 2991  ll
+ 2992  hugo
+ 2993  hugo help
+ 2994  hugo benchmark
+ 2995  hugo 
+ 2996  github -v
+ 2997  git -b
+ 2998  git -v
+ 2999  git -version
+ 3000  git --version
+ 3001  ls
+ 3002  cd content
+ 3003  ls
+ 3004  rm -rf *
+ 3005  cp -R ../themes/docdock/exampleSite/content/* .
+ 3006  ll
+ 3007  cd ..
+ 3008  ls
+ 3009  hugo 
+ 3010  ls
+ 3011  vi config.toml
+ 3012  ls -al themes
+ 3013  vi config.toml
+ 3014  ll
+ 3015  hugo
+ 3016  find ./ -n
+ 3017  find ./ -name "credits.md"
+ 3018  vi ./content/credits.md
+ 3019  hugo
+ 3020  guho 
+ 3021  ls
+ 3022  ls -al
+ 3023  cd static
+ 3024  ls
+ 3025  ls -al
+ 3026  cd ..
+ 3027  ls
+ 3028  hugo serve --bind="192.168.0.119"
+ 3029  ll
+ 3030  hugo
+ 3031  hugo help
+ 3032  hugo gen
+ 3033  hugo gen doc
+ 3034  hugo gen chromestyles
+ 3035  hugo gen chromastyle
+ 3036  hugo gen man
+ 3037  vi man/hugo-gen-autocomplete.1
+ 3038  cd .
+ 3039  ls -al
+ 3040  rm -rf man 
+ 3041  hugo help
+ 3042  hugo list
+ 3043  hugo list exire
+ 3044  hugo list future
+ 3045  hugo list futures
+ 3046  hugo list future
+ 3047  hugo list exired
+ 3048  cd ..
+ 3049  ls -al
+ 3050  hugo help
+ 3051  hugo gen
+ 3052  hugo
+ 3053  ls
+ 3054  cd ..
+ 3055  hugo
+ 3056  cd workspace
+ 3057  ls
+ 3058  cd goldi
+ 3059  hugo
+ 3060  ll
+ 3061  cd layouts
+ 3062  ls
+ 3063  cd ..
+ 3064  tree
+ 3065  tree | grep html
+ 3066  ll
+ 3067  tree
+ 3068  tree | grep html
+ 3069  ll
+ 3070  find ./ -name "*.html"
+ 3071  cd public
+ 3072  ls
+ 3073  ls -al
+ 3074  vi index.json
+ 3075  ll
+ 3076  rm -rf *
+ 3077  cd ,,'\n\n;\n'
+ 3078  hugo
+ 3079  ls a-l
+ 3080  c.:q
+ 3081  cd ..
+ 3082  ls -la
+ 3083  hugo
+ 3084  cd public
+ 3085  ls
+ 3086  ls -al
+ 3087  publci
+ 3088  ls
+ 3089  categories  create-page           css      getting
+ 3090  hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
+ 3091  Twisted (Python)
+ 3092  python3  python -m http.server 8000
+ 3093  Twisted (Python)
+ 3094  l
+ 3095  ll
+ 3096  cd ..
+ 3097  ls
+ 3098  ls -la
+ 3099  cd ..
+ 3100  ls
+ 3101  ls -l
+ 3102  cd sunjesoft.github.io
+ 3103  ls
+ 3104  ls -al
+ 3105  ps -ef | grep bundle
+ 3106  ps -ef | grep je
+ 3107  bundle exec jekyll s
+ 3108  ll
+ 3109  ps -ef | grep rubyt
+ 3110  ps -ef | grep ruby
+ 3111  pkill ruby
+ 3112  ps -ef | grep ruby
+ 3113  exit
+ 3114  tmux ls
+ 3115  tmux attach-session -t 1
+ 3116  exit
+ 3117  ls
+ 3118  ls -al
+ 3119  exit
+ 3120  docker-compose down
+ 3121  ls
+ 3122  cd ..
+ 3123  ls
+ 3124  ls -la
+ 3125  exit
+ 3126  tmux attach-session -t 0
+ 3127  ls -al
+ 3128  cd ..
+ 3129  ls
+ 3130  jekyll serve 
+ 3131  bundle exec jekyll s
+ 3132  ls
+ 3133  ls -al
+ 3134  bundle exec jekyll s
+ 3135  ls
+ 3136  ls -al
+ 3137  cd _posts
+ 3138  ls
+ 3139  ls -al
+ 3140  cd ..
+ 3141  ls
+ 3142  ls -al
+ 3143  cd _site
+ 3144  ls
+ 3145  ls -la
+ 3146  cd ..
+ 3147  ls -la
+ 3148  vi pages
+ 3149  find ./ -name "*.md"
+ 3150  vi index.md
+ 3151  cd
+ 3152  ls
+ 3153  cd workspace
+ 3154  ls
+ 3155  cd sunjesoft.github.io
+ 3156  ls
+ 3157  ls -la
+ 3158  find ./ -name "*.md"
+ 3159  ll
+ 3160  c dpages
+ 3161  cd pages
+ 3162  ls
+ 3163  ls -al
+ 3164  cd mydoc
+ 3165  ls
+ 3166  ls -la
+ 3167  vi mydoc_about.md
+ 3168  ll
+ 3169  vi mydoc_pages.md
+ 3170  _data/sidebars/mydoc_sidebar.yml 
+ 3171  ls
+ 3172  cd ..
+ 3173  ls
+ 3174  cd ..
+ 3175  ls
+ 3176  vi _data/sidebars/mydoc_sidebar.yml 
+ 3177  bundle exec jekyll s
+ 3178  vi _data/sidebars/mydoc_sidebar.yml 
+ 3179  vi _data/topnav.yml 
+ 3180  ls
+ 3181  ls -la
+ 3182  vi _config.yml
+ 3183  vi _data/topnav.yml 
+ 3184  vi _config.yml
+ 3185  ls -al
+ 3186  cd data
+ 3187  ls
+ 3188  ls -al
+ 3189  cd data
+ 3190  cd _data
+ 3191  ls
+ 3192  ls- la
+ 3193  ls -la
+ 3194  cd ..
+ 3195  ls -al
+ 3196  cd pages
+ 3197  ls
+ 3198  ls -la
+ 3199  rm -rf product1 product2 
+ 3200  ls -la
+ 3201  cd cd mydoc
+ 3202  cd mydoc
+ 3203  ls
+ 3204  ls -la
+ 3205  cd ..
+ 3206  ls
+ 3207  ls -la
+ 3208  cd ..
+ 3209  ls -la
+ 3210  ls
+ 3211  ls -la
+ 3212  vi _data/sidebars/mydoc_sidebar.yml
+ 3213  ls -la
+ 3214  cd pages
+ 3215  ls
+ 3216  cd mydoc
+ 3217  ls
+ 3218  ls -la
+ 3219  cd ..
+ 3220  ls
+ 3221  ls -la
+ 3222  cd ..
+ 3223  ls
+ 3224  find ./ -name "index.html"
+ 3225  vi index.md
+ 3226  ls
+ 3227  ls -la
+ 3228  cd update
+ 3229  ls
+ 3230  ls -la
+ 3231  ls
+ 3232  ls -al
+ 3233  vi pdf-all.sh
+ 3234  ll
+ 3235  cd pages
+ 3236  ls
+ 3237  cd mydoc
+ 3238  ls
+ 3239  cd ..
+ 3240  ls
+ 3241  ls -al
+ 3242  cd ..
+ 3243  ls
+ 3244  ls -la
+ 3245  cd _site
+ 3246  ls
+ 3247  ls -al
+ 3248  cd ..
+ 3249  ls
+ 3250  ls -la
+ 3251  ls -al
+ 3252  cd pages
+ 3253  ls
+ 3254  ls -al
+ 3255  cd mydoc
+ 3256  ls
+ 3257  ls -la
+ 3258  rm -rf *
+ 3259  ls -la
+ 3260  ll
+ 3261  cd ..
+ 3262  ls
+ 3263  ls -la
+ 3264  cd ..
+ 3265  ls
+ 3266  ls- la
+ 3267  ls -al
+ 3268  vi _data/sidebars/mydoc_sidebar.yml
+ 3269  cd pages
+ 3270  ls
+ 3271  ls -al
+ 3272  cd mydoc
+ 3273  ls
+ 3274  ls -al
+ 3275  cat > cluster_trouble_shooting.html
+ 3276  ls
+ 3277  cd ..
+ 3278  ls
+ 3279  cd ..
+ 3280  ls
+ 3281  ls -al
+ 3282  cd _layouts
+ 3283  lks
+ 3284  cd ..
+ 3285  ls
+ 3286  ls -al
+ 3287  cd pages
+ 3288  ls
+ 3289  ls -al
+ 3290  cd mydoc
+ 3291  ls
+ 3292  ls -la
+ 3293  v
+ 3294  ll
+ 3295  pwd
+ 3296  mv cluster_trouble_shooting.html cluster_trouble_shooting.md
+ 3297  cd ..
+ 3298  ls
+ 3299  cd ..
+ 3300  ls
+ 3301  cd _site
+ 3302  ls
+ 3303  ls -al
+ 3304  ll
+ 3305  ls
+ 3306  ll
+ 3307  ls
+ 3308  ls -al *cluster*
+ 3309  bundle exec jekyll s
+ 3310  ll
+ 3311  cd ..
+ 3312  ls
+ 3313  cd _pages
+ 3314  ls
+ 3315  cd pages
+ 3316  ls
+ 3317  cd mydocs
+ 3318  cd mydoc
+ 3319  ls
+ 3320  mv cluster_trouble_shooting.md mydoc_cluster_trouble_shooting.md
+ 3321  ll
+ 3322  cd ..
+ 3323  ls
+ 3324  ll
+ 3325  cd ..
+ 3326  ls
+ 3327  ls -la
+ 3328  cd _sites
+ 3329  ls
+ 3330  cd _site
+ 3331  ls
+ 3332  ls -al *cl*
+ 3333  ll
+ 3334  l
+ 3335  ll | more
+ 3336  ls
+ 3337  cd ..
+ 3338  ls
+ 3339  cd _pa
+ 3340  cd _pages
+ 3341  ls
+ 3342  ls -al
+ 3343  cd _post
+ 3344  ls
+ 3345  ls -la
+ 3346  cd pages
+ 3347  ls
+ 3348  ls -la
+ 3349  cd mydoc
+ 3350  ls
+ 3351  ls -la
+ 3352  vi mydoc_alerts.md
+ 3353  vi mydoc_cluster_trouble_shooting.md
+ 3354  ls -la
+ 3355  d ..
+ 3356  cd ..
+ 3357  ls
+ 3358  ls -la
+ 3359  cd ..
+ 3360  ls
+ 3361  ls -al
+ 3362  cd pages
+ 3363  ls
+ 3364  cd mydoc
+ 3365  ls
+ 3366  ls -la
+ 3367  cd ..
+ 3368  cd _site
+ 3369  ls
+ 3370  ls -la
+ 3371  cd ..
+ 3372  ls
+ 3373  cd _site
+ 3374  ls
+ 3375  ls -la
+ 3376  ll | more
+ 3377  ls -la
+ 3378  find ./ -name "*.css"
+ 3379  find ./ -name "*.css" | xargs grep toc
+ 3380  vi ./css/customstyles.css
+ 3381  cd
+ 3382  ls
+ 3383  cd workspace
+ 3384  ls
+ 3385  cd telegraf_package
+ 3386  ls
+ 3387  cd
+ 3388  ls
+ 3389  cd workspace
+ 3390  ls
+ 3391  cd 
+ 3392  gowork
+ 3393  ls
+ 3394  ls -al
+ 3395  make clean 
+ 3396  make
+ 3397  make telegraf
+ 3398  cd workspace
+ 3399  ls
+ 3400  vi plugins/inputs/goldilocks_cluster/goldilocks_cluster.go
+ 3401  ls
+ 3402  sudo wget -O /usr/local/bin/rmate https://raw.github.com/aurora/rmate/master/rmate
+ 3403  rmate
+ 3404  sudo chmod +x /usr/local/bin/rmate
+ 3405  ssh -R 52698:localhost:52698 192.168.0.119
+ 3406  cd
+ 3407  ls
+ 3408  ls -al
+ 3409  chmod 600 ~/.ssh/config
+ 3410  ssh -R 52698:localhost:52698 192.168.0.119
+ 3411  ls
+ 3412  cd
+ 3413  ls
+ 3414  ls -la
+ 3415  cd workspace
+ 3416  ls
+ 3417  cd go
+ 3418  ls
+ 3419  cd ..
+ 3420  ls
+ 3421  cd CryptoCurrencyExchange
+ 3422  rmate 
+ 3423  rmate .
+ 3424  ks
+ 3425  ls
+ 3426  ls -al
+ 3427  rmate README.md
+ 3428  ssh -R 52698:localhost:52698 192.168.0.119
+ 3429  exit
+ 3430  ls
+ 3431  cd Software
+ 3432  ls
+ 3433  cd 
+ 3434  ls
+ 3435  cd workspace
+ 3436  ls
+ 3437  ll
+ 3438  cd goldi
+ 3439  ls
+ 3440  rmate config.toml
+ 3441  cd ..
+ 3442  ls
+ 3443  ls a-l
+ 3444  cd CryptoCurrencyExchange
+ 3445  rmate .
+ 3446  ls -al
+ 3447  rmate src/*
+ 3448  tmux ;s
+ 3449  exit
+ 3450  tmux ls
+ 3451  tmux attach-session -t 0
+ 3452  ls
+ 3453  ls -al
+ 3454  top
+ 3455  extt
+ 3456  exit
+ 3457  ls- la
+ 3458  ls
+ 3459  top
+ 3460  ls
+ 3461  htop
+ 3462  ls
+ 3463  ls a-l
+ 3464  cd new_site
+ 3465  ls
+ 3466  ls -al
+ 3467  cd _data
+ 3468  ls
+ 3469  ls a-l
+ 3470  cd
+ 3471  ls -al
+ 3472  cd Software
+ 3473  ls
+ 3474  ls -al
+ 3475  cd 
+ 3476  ls
+ 3477  cd workspace
+ 3478  ls
+ 3479  cd dbm
+ 3480  ls
+ 3481  ls -al
+ 3482  cd src
+ 3483  ls
+ 3484  ls -la
+ 3485  cd goldilocks/l
+ 3486  ls
+ 3487  cd goldilocks
+ 3488  ls
+ 3489  ls -al
+ 3490  ctags -R
+ 3491  vi
+ 3492  cd src
+ 3493  ls
+ 3494  cd dbm
+ 3495  ls
+ 3496  ls -al
+ 3497  cd dbmAPI
+ 3498  ls
+ 3499  ls- la
+ 3500  vi dbmSelectRow.cpp
+ 3501  man fctl
+ 3502  man flctl
+ 3503  man flock
+ 3504  man fcntl
+ 3505  pmap
+ 3506  ls
+ 3507  ps -ef | grep ckh
+ 3508  pmap 8885
+ 3509  man pmap
+ 3510  man -x pmap
+ 3511  pmap -X 8885
+ 3512  man pmap
+ 3513  cd /proc/8885
+ 3514  ls
+ 3515  ls -la
+ 3516  cat oom_score
+ 3517  cat oom_adj
+ 3518  cat oom_score_adj
+ 3519  cat mem
+ 3520  cat maps
+ 3521  cat numa_maps 
+ 3522  ls
+ 3523  ls -al
+ 3524  cat stat
+ 3525  cat syscall
+ 3526  cat cmdline
+ 3527  cat cpuset
+ 3528  cat attr/
+ 3529  ls
+ 3530  cd net
+ 3531  ls
+ 3532  ls -al
+ 3533  cd ..
+ 3534  ls
+ 3535  ls -al
+ 3536  cat wchan
+ 3537  cat io
+ 3538  df
+ 3539  mount
+ 3540  ls
+ 3541  cd workspace
+ 3542  ls
+ 3543  tmux
+ 3544  ls
+ 3545  cd workspace
+ 3546  ls
+ 3547  cd workspace
+ 3548  ls
+ 3549  cd product
+ 3550  ls
+ 3551  find ./ -name "genlic"
+ 3552  cd Gliese/home/bin/
+ 3553  ls
+ 3554  genlic
+ 3555  ./genlic 
+ 3556  /genlic --trial 20181031
+ 3557  ./genlic --trial 20181031
+ 3558  exit
+ 3559  ls
+ 3560  ls -al
+ 3561  cls
+ 3562  cks
+ 3563  ls
+ 3564  cls
+ 3565  ls -al
+ 3566  top
+ 3567  tmux
+ 3568  ls
+ 3569  cd my_exchange
+ 3570  ls
+ 3571  ls -al
+ 3572  cd src
+ 3573  ls
+ 3574  cd ..
+ 3575  lz
+ 3576  ls
+ 3577  cd
+ 3578  ls
+ 3579  mysql
+ 3580  ps -ef | grep mysql
+ 3581  ls -al
+ 3582  cd Software
+ 3583  ls
+ 3584  cd mysql
+ 3585  ls
+ 3586  ls -la
+ 3587  cd bin 
+ 3588  ls
+ 3589  ps -ef | grep mysql
+ 3590  cd
+ 3591  ls
+ 3592  vi 1.sh 
+ 3593  sh 1.sh
+ 3594  vi 1.sh 
+ 3595  sh 1.sh
+ 3596  docker ps
+ 3597  mysql
+ 3598  mysql -u root -p 
+ 3599  docker exec -it some-mysql /bin/bash
+ 3600  docker ps
+ 3601  docker exec -it some-mysql /bin/bash
+ 3602  tmnux
+ 3603  tmux
+ 3604  ls
+ 3605  ls -al
+ 3606  cd workspace
+ 3607  ls
+ 3608  cd sunjesoft.github.io
+ 3609  ls
+ 3610  ls -la
+ 3611  bundle exec jekyll s
+ 3612  lks
+ 3613  ls
+ 3614  ls -al
+ 3615  cd ..
+ 3616  ls -al
+ 3617  gowork
+ 3618  ls
+ 3619  cd src
+ 3620  ls
+ 3621  ls -al
+ 3622  cd plugins/inputs/goldilocks_cluster
+ 3623  ls
+ 3624  ls -al
+ 3625  vi goldilocks_cluster.go
+ 3626  gsqlnet test test
+ 3627  gsql test test
+ 3628  glsnr --start
+ 3629  ls
+ 3630  ls -al
+ 3631  cd
+ 3632  which pip3
+ 3633  pip3 install tensor
+ 3634  ls
+ 3635  virtualenv python_env
+ 3636  ls
+ 3637  ls -al
+ 3638  cd python_env/bin/
+ 3639  ls
+ 3640  ./activate
+ 3641  source activate
+ 3642  ls
+ 3643  ls -al
+ 3644  pip3 install --upgrade tensorflow
+ 3645  cd
+ 3646  ls
+ 3647  cd workspace
+ 3648  ls
+ 3649  mkdir tensorflow
+ 3650  ls
+ 3651  cd tensorflow
+ 3652  ls
+ 3653  cat > learn.py
+ 3654  python3 learn.py
+ 3655  vi learn.py
+ 3656  python3 learn.py
+ 3657  vi learn.py
+ 3658  python3 learn.py
+ 3659  vi learn.py
+ 3660  python3 learn.py
+ 3661  vi learn.py
+ 3662  python3 learn.py
+ 3663  vi learn.py
+ 3664  python3 learn.py
+ 3665  vi learn.py
+ 3666  python3 learn.py
+ 3667  vi learn.py
+ 3668  python3 learn.py
+ 3669  top
+ 3670  pstack 22563
+ 3671  python3 learn.py
+ 3672  ps -ef | grep python
+ 3673  pstack 23095 | c++filt
+ 3674  vi learn.py
+ 3675  pstack 23095 | c++filt
+ 3676  python3 learn.py
+ 3677  vi learn.py
+ 3678  python3 learn.py
+ 3679  vi learn.py
+ 3680  python3 learn.py
+ 3681  vi learn.py
+ 3682  python3 learn.py
+ 3683  da
+ 3684  htop
+ 3685  top
+ 3686  htop
+ 3687  top
+ 3688  vagrant --version
+ 3689  export KUBERNETES_PROVIDER=vagrant
+ 3690  curl -sS https://get.k8s.io | bash
+ 3691  ll
+ 3692  cd ke
+ 3693  cd kubernetes
+ 3694  ls
+ 3695  ls -al
+ 3696  cd cl
+ 3697  ls
+ 3698  cd cl
+ 3699  cd cls
+ 3700  cluster
+ 3701  ls
+ 3702  ./kube-up.sh
+ 3703  cd ..
+ 3704  ls
+ 3705  cd
+ 3706  ls
+ 3707  ls- la
+ 3708  ls -la
+ 3709  export KUBERNETES_PROVIDER=vagrant
+ 3710  curl -sS https://get.k8s.io | bash
+ 3711  ll
+ 3712  cd kubernetes
+ 3713  lsd
+ 3714  ls
+ 3715  ./cluster/kube-up.sh
+ 3716  export NUM_NODES=3
+ 3717  ./cluster/kube-up.sh
+ 3718  vagrant ssh
+ 3719  vagrant ssh master
+ 3720  vargrant ls
+ 3721  vagrant ls
+ 3722  tmux
+ 3723  exit
+ 3724  tmux ls
+ 3725  tmux attach-session -t 1
+ 3726  dd
+ 3727  l
+ 3728  s
+ 3729  ls -al
+ 3730  ls
+ 3731  ls a-l
+ 3732  ll
+ 3733  ls
+ 3734  ls -al
+ 3735  vi 
+ 3736  lls
+ 3737  ls -la
+ 3738  vi 
+ 3739  exit
+ 3740  ls
+ 3741  source python_env/bin/activate
+ 3742  l
+ 3743  s
+ 3744  ls
+ 3745  cd
+ 3746  cd workspace
+ 3747  ls
+ 3748  cd tensorflow
+ 3749  ls
+ 3750  rm -rf *
+ 3751  ls
+ 3752  ls -la
+ 3753  curl -LO http://download.tensorflow.org/example_images/flower_photos.tgz
+ 3754  ll
+ 3755  gzip -cd flower_photos.tgz| tar xvf -
+ 3756  ls
+ 3757  ls -la
+ 3758  cd flower_photos
+ 3759  ls
+ 3760  ls -la
+ 3761  cd da
+ 3762  cd daisy
+ 3763  ls
+ 3764  ls -al
+ 3765  cd ..
+ 3766  ls
+ 3767  cd ..
+ 3768  ls
+ 3769  ls -la
+ 3770  cd ..
+ 3771  ls
+ 3772  ls -la
+ 3773  ll
+ 3774  cd tensorflow
+ 3775  ls
+ 3776  curl -LO https://github.com/tensorflow/hub/raw/r0.1/examples/image_retraining/retrain.py
+ 3777  vi retrain.py
+ 3778  python retaiin.py 
+ 3779  ll
+ 3780  python retain.py --image_dir ./flower_photos
+ 3781  ll
+ 3782  python retrain.py --image_dir ./flower_photos
+ 3783  pip3 install tensorflow_hub
+ 3784  python retrain.py --image_dir ./flower_photos
+ 3785  l;s
+ 3786  ls a-l
+ 3787  vi retrain.py
+ 3788  tmux
+ 3789  exit
+ 3790  tmux
+ 3791  source python_env/bin/activate
+ 3792  cd workspa
+ 3793  workspace
+ 3794  ls
+ 3795  cd tensorflow
+ 3796  lks
+ 3797  ls- al
+ 3798  ls -al
+ 3799  vi retrain.py
+ 3800  ced /tmp
+ 3801  cd /tmp
+ 3802  ls
+ 3803  ll
+ 3804  hsperdata
+ 3805  perf
+ 3806  ll
+ 3807  cd bottleneck
+ 3808  ls
+ 3809  ls -al
+ 3810  cd daisy
+ 3811  ls
+ 3812  ls al
+ 3813  ls -al *.txt
+ 3814  ks 0ak
+ 3815  vi  8671824531_64b816949e_m.jpg_https~tfhub.dev~google~imagenet~inception_v3~feature_vector~1.txt
+ 3816  cd ..
+ 3817  ls
+ 3818  ls -al
+ 3819  cd ..
+ 3820  rm -rf bottleneck
+ 3821  ls a-l
+ 3822  cd
+ 3823  ls -al
+ 3824  cd
+ 3825  cd workspace
+ 3826  ls
+ 3827  cd product
+ 3828  ls
+ 3829  vi CMake
+ 3830  vi CMakeLists.txt
+ 3831  ls
+ 3832  ls -al
+ 3833  vi cmake_install.cmake
+ 3834  cd .
+ 3835  ls
+ 3836  ls a-l
+ 3837  cdl
+ 3838  sls- la
+ 3839  ls -al
+ 3840  cvd 
+ 3841  ls
+ 3842  cd
+ 3843  ls
+ 3844  cd workspace
+ 3845  ls
+ 3846  cd tensorflow
+ 3847  ls
+ 3848  ls -la
+ 3849  vi retrain.py
+ 3850  gcreatdb
+ 3851  which gcreatedb
+ 3852  gcreatedb
+ 3853  gcreatedb -h
+ 3854  ls
+ 3855  gsql test test
+ 3856  cd $GOLDILOCKS_HOME/admin/cluster
+ 3857  ls
+ 3858  gsql test test
+ 3859  ls
+ 3860  cd 
+ 3861  sl
+ 3862  cd
+ 3863  ls
+ 3864  cd $GOLDILOCKS_HOME/
+ 3865  ls
+ 3866  cd 
+ 3867  cd $GOLDILOCKS_DATA
+ 3868  ls
+ 3869  cd db
+ 3870  ls
+ 3871  cd 
+ 3872  ls
+ 3873  cd workspace
+ 3874  ls
+ 3875  ccd 
+ 3876  cd CryptoCurrencyExchange
+ 3877  ls
+ 3878  cd script
+ 3879  ls
+ 3880  vi crt_table
+ 3881  vi crt_table.sql
+ 3882  gsql test test
+ 3883  ls
+ 3884  vi crt_table.sql
+ 3885  sgql test 
+ 3886  gsql test test
+ 3887  ls
+ 3888  cd 
+ 3889  cd workspace
+ 3890  ls
+ 3891  cd cluster_test
+ 3892  ls
+ 3893  sh clean.sh 
+ 3894  ls
+ 3895  ls -al
+ 3896  vi vi create.sh 
+ 3897  sh create.sh 
+ 3898  vi create.sh 
+ 3899  gsql test test
+ 3900  ls
+ 3901  ls -al
+ 3902  vi create.sh 
+ 3903  gsql test test
+ 3904  tmux
+ 3905  ls
+ 3906  ls -al
+ 3907  cd work
+ 3908  docekr ps
+ 3909  docker ps
+ 3910  docker stop 367a95d836a0
+ 3911  docker ps
+ 3912  docker 
+ 3913  ls
+ 3914  cd workspace
+ 3915  ls
+ 3916  ls -al
+ 3917  cd docker_monitoring
+ 3918  ls
+ 3919  docker-compose down
+ 3920  docker-compose up
+ 3921  ls
+ 3922  docker ps
+ 3923  docker exec -it dockermonitoring_g1n1_1
+ 3924  docker exec -it dockermonitoring_g1n1_1 /bin/bash
+ 3925  docke rps
+ 3926  docker ps
+ 3927  ks
+ 3928  ls
+ 3929  docker 
+ 3930  ls
+ 3931  dcoekr 
+ 3932  docker ps
+ 3933  docker exec -it dockermonitoring_g1n2_1 /bin/bash
+ 3934  docker exec -it dockermonitoring_g2n1_1 /bin/bash
+ 3935  docker exec -it dockermonitoring_g1n2_1 /bin/bash
+ 3936  docker exec -it dockermonitoring_g2n1_1 /bin/bash
+ 3937  docekr ps
+ 3938  docker ps
+ 3939  docker exec -it dockermonitoring_g1n1_1
+ 3940  docker exec -it dockermonitoring_g1n1_1 /bin/bash
+ 3941  ls
+ 3942  ls -al
+ 3943  gks
+ 3944  ls
+ 3945  ls -al
+ 3946  gsql test test
+ 3947  ls
+ 3948  cd workspace
+ 3949  ls
+ 3950  cd
+ 3951  ls
+ 3952  id
+ 3953  cd Software
+ 3954  ls
+ 3955  cd goldilocks-server-venus.3.1.9-linux-x86_64
+ 3956  gsql test test
+ 3957  ls
+ 3958  ls -al
+ 3959  cd goldilocks_home/bin
+ 3960  ls
+ 3961  ls -al
+ 3962  cd ..
+ 3963  ls
+ 3964  ls -al
+ 3965  cd sample
+ 3966  ls
+ 3967  cd ..
+ 3968  ls
+ 3969  ls -la
+ 3970  cd script
+ 3971  ls
+ 3972  ls -la
+ 3973  cd ..
+ 3974  ls
+ 3975  ls -la
+ 3976  cd include
+ 3977  ls
+ 3978  ls -la
+ 3979  cd ..
+ 3980  ls
+ 3981  cd lib
+ 3982  ls
+ 3983  ls -la
+ 3984  ll
+ 3985  cd ..
+ 3986  ls
+ 3987  ls -al
+ 3988  cd admin
+ 3989  ls
+ 3990  cd cluster
+ 3991  ls
+ 3992  gsql sys gliese --as sysdba -i DictionarySchema.sql
+ 3993  gsql sys gliese --as sysdba -i InformationSchema.sql
+ 3994  gsql sys gliese --as sysdba -i PerformanceViewSchema.sql
+ 3995  gsql test test 
+ 3996  ls
+ 3997  cd workspace
+ 3998  ls
+ 3999  cd goldi
+ 4000  ls
+ 4001  cd
+ 4002  ls
+ 4003  cd workspace
+ 4004  ls
+ 4005  cd go
+ 4006  ls
+ 4007  cd
+ 4008  ls
+ 4009  cd workspace
+ 4010  ls
+ 4011  cd CryptoCurrencyExchange
+ 4012  ls
+ 4013  cd script
+ 4014  ls
+ 4015  vi crt_table_standlone.sql
+ 4016  gsql test test -i crt_table_standlone.sql
+ 4017  select  
+ 4018  gsql test test 
+ 4019  gsql test test
+ 4020  ls
+ 4021  ls a-l
+ 4022  gsql test test
+ 4023  tmux
+ 4024  exit
+ 4025  ls -la
+ 4026  vi .bashrc
+ 4027  vi .zsh_profile
+ 4028  exit
+ 4029  vi .zsh_profile
+ 4030  exit
+ 4031  ls
+ 4032  cd $MUX
+ 4033  echo $TMUX
+ 4034  ls
+ 4035  exit
+ 4036  ls
+ 4037  ls -al
+ 4038  tmux ls
+ 4039  tmux attach-session -t 0
+ 4040  exit
+ 4041  tmux attach-session -t 4
+ 4042  exit
+ 4043  tmux attach-session -t 5
+ 4044  exit
+ 4045  ls
+ 4046  cd workspace/
+ 4047  ls
+ 4048  cd docker_monitoring
+ 4049  ls
+ 4050  docker-compose down 
+ 4051  cd
+ 4052  exit
+ 4053  tmux ls
+ 4054  ls
+ 4055  ls -al
+ 4056  l
+ 4057  s
+ 4058  ls
+ 4059  export KUBERNETES_PROVIDER=vagrant
+ 4060  curl -sS https://get.k8s.io | bash
+ 4061  curl -sS https://get.k8s.io 
+ 4062  curl -sS https://get.k8s.io | basj
+ 4063  curl -sS https://get.k8s.io | bash
+ 4064  curl -sS https://get.k8s.io  > k.sh
+ 4065  vi k.sh
+ 4066  sh k.sh
+ 4067  rm -rf kubernetes
+ 4068  sh k.sh
+ 4069  cd kubernetes
+ 4070  ls
+ 4071  cd bin 
+ 4072  ls
+ 4073  ls -al
+ 4074  cd cluster
+ 4075  ls
+ 4076  ls -al
+ 4077  cd ..
+ 4078  ls -al
+ 4079  cd ..
+ 4080  ls
+ 4081  ls -la
+ 4082  cd kubernetes
+ 4083  ls
+ 4084  cd cl
+ 4085  ls
+ 4086  cd cluster
+ 4087  ls
+ 4088  ./kube-up.sh
+ 4089  sh kube-up.sh
+ 4090  vi kube-util.sh
+ 4091  ls -al
+ 4092  cd ..
+ 4093  ls -al
+ 4094  ./cluster/kube-up.sh
+ 4095  cd
+ 4096  wget https://dl.k8s.io/v1.10.0/kubernetes-server-linux-amd64.tar.g
+ 4097  ll
+ 4098  ls -al
+ 4099  ll
+ 4100  rm -rf kubernetes.*
+ 4101  ls -al
+ 4102  gzip -cd kubernetes-server-linux-amd64.tar.gz| tar xvf -
+ 4103  ls
+ 4104  ls -al
+ 4105  cd kubernetes
+ 4106  ls
+ 4107  ls -al
+ 4108  cd server
+ 4109  ls
+ 4110  cd ..
+ 4111  ls
+ 4112  cd client
+ 4113  ls
+ 4114  ls -al
+ 4115  bin
+ 4116  ls
+ 4117  ls -al
+ 4118  ./kubectl
+ 4119  ./kubectl --version
+ 4120  ./kubectl version
+ 4121  s
+ 4122  lc
+ 4123  ls
+ 4124  cd ..
+ 4125  ls
+ 4126  ls -al
+ 4127  cd ..
+ 4128  ls -al
+ 4129  ./cluster/kube-up.sh
+ 4130  cd ./cluster
+ 4131  ls
+ 4132  vui kube-up.sh
+ 4133  vi kube-up.sh
+ 4134  cd
+ 4135  ls
+ 4136  mkdir kube_test
+ 4137  ls
+ 4138  cd kube_test
+ 4139  ls
+ 4140  ls -al
+ 4141  vagrant init
+ 4142  ls
+ 4143  ls -al
+ 4144  vi Var
+ 4145  vi Vagrantfile
+ 4146  ls
+ 4147  ls -al
+ 4148  cd ..
+ 4149  ls
+ 4150  which virtualbox
+ 4151  virtualbox
+ 4152  ls
+ 4153  ls a-l
+ 4154  cdgit clone https://github.com/rootsongjc/kubernetes-vagrant-centos-cluster.git \\
+ 4155  
+ 4156  git clone https://github.com/rootsongjc/kubernetes-vagrant-centos-cluster.git
+ 4157  cd kubernetes-vagrant-centos-cluster
+ 4158  ls
+ 4159  vi Vagrantfile
+ 4160  vagrant up
+ 4161  ls
+ 4162  ls -al
+ 4163  tio
+ 4164  exit
+ 4165  top
+ 4166  ll
+ 4167  vagrant down
+ 4168  vagrant halt
+ 4169  vagrant destroy
+ 4170  ll
+ 4171  ls -al
+ 4172  v Vagrantfile
+ 4173  vi Vagrantfile
+ 4174  ls -al
+ 4175  ls
+ 4176  ls -al
+ 4177  useradd demo
+ 4178  sudo useradd demo
+ 4179  sudo su - demo
+ 4180  ls -al
+ 4181  l
+ 4182  ls -al
+ 4183  vi 
+ 4184  ls -al
+ 4185  useradd demo_install
+ 4186  sudo useradd demo_install
+ 4187  sudo passwd demo_install
+ 4188  su - demo_install
+ 4189  ls -al
+ 4190  cp .bashrc /tmp/.bashrc
+ 4191  su - demo_install
+ 4192  ls -al
+ 4193  cd workspace
+ 4194  ls
+ 4195  su - demo_install
+ 4196  exit
+ 4197  ls
+ 4198  ls -al
+ 4199  ls
+ 4200  ls -la
+ 4201  ls
+ 4202  ls -al
+ 4203  /tmp
+ 4204  ls
+ 4205  rpm -Uvh asciinema-1.4.0-1.el7.noarch.rpm
+ 4206  yum install asciinema
+ 4207  sudo yum install python34
+ 4208  exit
+ 4209  ls -al
+ 4210  ls a-l
+ 4211  asciiname
+ 4212  exit
+ 4213  vagrant
+ 4214  ll
+ 4215  ls -al
+ 4216  exit
+ 4217  ls -al
+ 4218  ll
+ 4219  cd
+ 4220  vi .bashrc
+ 4221  vi .bash_profile
+ 4222  vi .zsh_profile
+ 4223  ls -al
+ 4224  ls
+ 4225  cat .bashrc
+ 4226  cat .bashrc | more
+ 4227  ls
+ 4228  y
+ 4229  ls
+ 4230  ls -la
+ 4231  cd workspace
+ 4232  ls
+ 4233  mkdir golang_test
+ 4234  cd 
+ 4235  gowork
+ 4236  ls
+ 4237  cd ..
+ 4238  ls
+ 4239  ls -la
+ 4240  cd ..
+ 4241  ls -la
+ 4242  cd ckh0618
+ 4243  ls
+ 4244  cd
+ 4245  ls -la
+ 4246  cd workspace
+ 4247  ls
+ 4248  c
+ 4249  dl
+ 4250  s
+ 4251  cd
+ 4252  ls
+ 4253  cd workspace
+ 4254  mkdir golang_test
+ 4255  cd golang_test
+ 4256  ls
+ 4257  cat > test.go
+ 4258  go build 
+ 4259  ls -la
+ 4260  go build -o libgolangtest.so -buildmode=c-shared imgutil.go
+ 4261  go build -o libgolangtest.so -buildmode=c-shared test.go
+ 4262  ll
+ 4263  vi libgolangtest.h
+ 4264  cat > test.c
+ 4265  g++ -o test test.c -L. -lgolangtest
+ 4266  g++ -o test test.c -L. -lgolangtest -I.
+ 4267  g++ -o test test.c -L. -lgolangtest -I
+ 4268  g++ -o test test.c -I. -L. -lgolangtest
+ 4269  ll
+ 4270  go build -o libgolangtest.so -buildmode=c-shared test.go
+ 4271  vi test.c
+ 4272  g++ -o test test.c -L. -lgolangtest -I
+ 4273  g++ -o test test.c -L. -lgolangtest -I.
+ 4274  ./test
+ 4275  ls -al
+ 4276  ./test 1
+ 4277  ./test 1 1 
+ 4278  ./test d d
+ 4279  vi test.c
+ 4280  ./test a.b
+ 4281  touch a.b
+ 4282  ./test a.
+ 4283  ./test a.b
+ 4284  ls -al
+ 4285  vvo tes
+ 4286  vo test.go
+ 4287  vi test.go
+ 4288  http://www.yes24.com/24/goods/59395044\?scode\=032\&OzSrank\=1
+ 4289  /usr/bin/scp -tr ./
+ 4290  ls
+ 4291  ls -al
+ 4292  rm -rf *
+ 4293  ls -al
+ 4294  cat > test.go
+ 4295  vi test.go
+ 4296  go get
+ 4297  ls -al
+ 4298  go dep
+ 4299  godep
+ 4300  godep save
+ 4301  ls -al
+ 4302  go build test.go
+ 4303  go build
+ 4304  cd
+ 4305  gowork
+ 4306  cd ..
+ 4307  ls -al
+ 4308  cd ..
+ 4309  ls
+ 4310  ls -al
+ 4311  cd ckh0618
+ 4312  ls
+ 4313  mkdir gooo
+ 4314  cd gooo
+ 4315  ls
+ 4316  ll
+ 4317  cat > test.go
+ 4318  go build
+ 4319  go get 
+ 4320  vi ../../bramvdbogaerde/go-scp/auth/key.go
+ 4321  go build
+ 4322  vi ../../bramvdbogaerde/go-scp/auth/key.go
+ 4323  lll
+ 4324  l
+ 4325  ll
+ 4326  lsd -a-l
+ 4327  ls -la
+ 4328  cd ..
+ 4329  ls -al
+ 4330  curl -s http://headers.jsontest.com/
+ 4331  curl -s http://headers.jsontest.com/ | grone
+ 4332  curl -s http://headers.jsontest.com/ | gron
+ 4333  id
+ 4334  lks -al
+ 4335  ls -la
+ 4336  top
+ 4337  ls -la
+ 4338  ll
+ 4339  cd workspace
+ 4340  ls
+ 4341  ll
+ 4342  gowork
+ 4343  ls
+ 4344  ls -al
+ 4345  cd workspace 
+ 4346  ls
+ 4347  cd ..
+ 4348  cd 
+ 4349  cd workspace
+ 4350  ls
+ 4351  ls -al
+ 4352  cd
+ 4353  ls
+ 4354  ls -al
+ 4355  cd workspace
+ 4356  ls
+ 4357  cd
+ 4358  ls
+ 4359  ls -al
+ 4360  ls
+ 4361  tmux
+ 4362  ls -al
+ 4363  ls
+ 4364  clear
+ 4365  ls
+ 4366  cd workspace
+ 4367  ls
+ 4368  cd monitor
+ 4369  ls
+ 4370  vi telegraf.conf telegraf.conf
+ 4371  exit
+ 4372  ls
+ 4373  ls -al
+ 4374  tmux
+ 4375  ]\\
+ 4376  
+ 4377  ls
+ 4378  ls -al
+ 4379  which 
+ 4380  ls
+ 4381  cd workspace
+ 4382  ls
+ 4383  cd workspace
+ 4384  ls
+ 4385  ls -al
+ 4386  cd 3rd
+ 4387  ls
+ 4388  cd dbm
+ 4389  ls
+ 4390  ls -al
+ 4391  svn info
+ 4392  svn --version
+ 4393  svn info
+ 4394  ls -al
+ 4395  cd workspace
+ 4396  ls
+ 4397  cd go
+ 4398  ls
+ 4399  ls -l
+ 4400  cd src
+ 4401  ls
+ 4402  ls -la
+ 4403  cd 
+ 4404  cd
+ 4405  ls
+ 4406  ls -al
+ 4407  vi .zshrc
+ 4408  vi .zsh_profile
+ 4409  exit
+ 4410  ls -al
+ 4411  sudo su -
+ 4412  su - ttadmin
+ 4413  sudo su - timesten
+ 4414  ls
+ 4415  exit
+ 4416  sudo su - timesten
+ 4417  ls
+ 4418  sudo mv /etc/Timesten /etc/TimesTen
+ 4419  sudo su - timesten
+ 4420  top
+ 4421  ipcs
+ 4422  ipcs | more
+ 4423  ipcs -m 
+ 4424  ipcs -m | grep time
+ 4425  ll
+ 4426  sudo su - timesten
+ 4427  exit
+ 4428  cd workspace
+ 4429  ls
+ 4430  cd docker_dev
+ 4431  ls
+ 4432  ls -la
+ 4433  pwd
+ 4434  vi docker-compose.yaml
+ 4435  cd product
+ 4436  ls
+ 4437  ls -al
+ 4438  cd ..
+ 4439  ls -al
+ 4440  vi Dockerfile
+ 4441  ls -al
+ 4442  cd 
+ 4443  ls
+ 4444  ls 
+ 4445  ls -la
+ 4446  l
+ 4447  exit
+ 4448  ls -al
+ 4449  cd workspace
+ 4450  ls
+ 4451  cd telegraf_package/
+ 4452  ls
+ 4453  ls -al
+ 4454  lls -l
+ 4455  cd ..
+ 4456  ls
+ 4457  ls -al
+ 4458  cd ..
+ 4459  cd telegraf_goldilocks
+ 4460  cd
+ 4461  ls
+ 4462  ls -al
+ 4463  cd workspace
+ 4464  ls
+ 4465  tar czf telegraf_package.tar.gz telegraf_package
+ 4466  ll
+ 4467  ls -al
+ 4468  telegraf_package
+ 4469  ls
+ 4470  ls -al
+ 4471  cd sql
+ 4472  ls
+ 4473  ls -la
+ 4474  cd ..
+ 4475  ls -al
+ 4476  cd sql
+ 4477  ls
+ 4478  ls -la
+ 4479  vi init.sql 
+ 4480  vi telegraf_view.sql
+ 4481  cd ..
+ 4482  ls- l
+ 4483  ls -la
+ 4484  cd ..
+ 4485  ls -la
+ 4486  ls -al
+ 4487  cd monitor)o
+ 4488  cd monitoring_package
+ 4489  ll
+ 4490  ssh ckh0618@192.168.0.9
+ 4491  ls
+ 4492  ls -al
+ 4493  ls -la
+ 4494  cd
+ 4495  ls
+ 4496  ls- al
+ 4497  ls
+ 4498  ls -la
+ 4499  top
+ 4500  ls a-l
+ 4501  top
+ 4502  ls -al
+ 4503  ls
+ 4504  cd workspace
+ 4505  ls
+ 4506  cd CryptoCurrencyExchange/ls
+ 4507  cd CryptoCurrencyExchange/
+ 4508  ll
+ 4509  cd src
+ 4510  ls
+ 4511  vi Goldilocks.gc
+ 4512  ls
+ 4513  ls -al
+ 4514  cd
+ 4515  ls
+ 4516  ls -al
+ 4517  sftp rel@192.168.0.205
+ 4518  ls
+ 4519  ls a-l
+ 4520  -s la
+ 4521  ls -al
+ 4522  gzip -cd goldilocks-server-venus.3.1.14-linux-x86_64.tar.gz| tar xvf -
+ 4523  ls
+ 4524  ls -al
+ 4525  cd $GOLDILOCKS_HOME
+ 4526  ls
+ 4527  cd sample
+ 4528  ls
+ 4529  cd EmbeddedSQL
+ 4530  ls
+ 4531  ls -al
+ 4532  vi sample2.gc
+ 4533  vi sample1.gc
+ 4534  cd
+ 4535  s
+ 4536  ls
+ 4537  exit
+ 4538  ll
+ 4539  cd workspace
+ 4540  ls
+ 4541  cd cluster_test
+ 4542  ls
+ 4543  vi add.sh 
+ 4544  ls -la
+ 4545  cd workspace
+ 4546  ls
+ 4547  cd pbt
+ 4548  ls
+ 4549  ls -la
+ 4550  make sample1
+ 4551  ls -al
+ 4552  vi sample1.gc
+ 4553  make sample1
+ 4554  vi sample1.gc
+ 4555  make sample1
+ 4556  ls -al
+ 4557  ll
+ 4558  vi recreate.sh
+ 4559  cd
+ 4560  ls
+ 4561  cgsql tes
+ 4562  gsql test test
+ 4563  cd
+ 4564  ls -l
+ 4565  cd $GOLDILOCKS_DATA
+ 4566  cd conf
+ 4567  ls
+ 4568  ls -al
+ 4569  vi goldilocks.properties.conf
+ 4570  makew
+ 4571  cd
+ 4572  ls
+ 4573  cd workspace
+ 4574  cd pbt
+ 4575  ls
+ 4576  ls -la
+ 4577  sh recreate.sh 
+ 4578  ll
+ 4579  gsqlnet test test
+ 4580  glsnr --start
+ 4581  cd
+ 4582  vi .odbc.ini
+ 4583  cd $GOLDILOCKS_DATA
+ 4584  ls
+ 4585  cd conf
+ 4586  ls
+ 4587  vi goldilocks.listener.conf
+ 4588  glsnr --start
+ 4589  gsqlnet test test
+ 4590  ls
+ 4591  ls a-l
+ 4592  cd
+ 4593  ls
+ 4594  cd workspace
+ 4595  ls
+ 4596  cd pbt
+ 4597  ls
+ 4598  ls -al
+ 4599  make sample1
+ 4600  make clean 
+ 4601  make sample1
+ 4602  ls -la
+ 4603  gsql test test -i crt_table_index_goldilocks.sql
+ 4604  gsql test test -i alter_table_goldilocks.sql
+ 4605  ll
+ 4606  ./sample1
+ 4607  make clean 
+ 4608  make sample1
+ 4609  ls -al
+ 4610  vi sample1.gc
+ 4611  make smaple1
+ 4612  make sample1
+ 4613  ./sample1
+ 4614  vi sample1.gc
+ 4615  ls -al
+ 4616  ls
+ 4617  vi recreate.sh
+ 4618  gsql test test
+ 4619  gsql sys gliese 
+ 4620  ls
+ 4621  vi run.sh
+ 4622  ls -al
+ 4623  vi recreate.sh
+ 4624  sh recreate.sh
+ 4625  vi recreate.sh
+ 4626  gsql sys gliese 
+ 4627  gsql sys gliese --as sysdba
+ 4628  vi recreate.sh
+ 4629  sh recreate.sh 
+ 4630  vi recreate.sh
+ 4631  cd workspace
+ 4632  cd cluster
+ 4633  ls
+ 4634  ls -al
+ 4635  cd cluster_test
+ 4636  ls
+ 4637  ls -al
+ 4638  vi create.sh
+ 4639* sh recreate.sh 
+ 4640* vi recreate.sh
+ 4641* sh recreate.sh 
+ 4642* ll
+ 4643* ls -al
+ 4644* vi recreate.sh
+ 4645* sh recreate.sh 
+ 4646  top
+ 4647* ll
+ 4648* ls -asl
+ 4649* ./sample1
+ 4650* vi run.sh 
+ 4651* sh run.sh
+ 4652  ps -ef | grep ckh0618
+ 4653  pstack 30073
+ 4654* pkill sample1
+ 4655* ls a-l
+ 4656* ls -al
+ 4657* ps -ef | grep sample1
+ 4658* ls -al
+ 4659* vi run.sh 
+ 4660* vi sample1.gc
+ 4661* make sample1
+ 4662* ./sample1
+ 4663  top
+ 4664  ps -ef | grep sample1
+ 4665* ll
+ 4666* vi run.sh 
+ 4667* sh run.sh
+ 4668* top
+ 4669* ll
+ 4670* pkill sample1
+ 4671* ls -la
+ 4672  top
+ 4673* ls -al
+ 4674* vi sample1.gc
+ 4675* sh run.sh 
+ 4676* j
+ 4677* pkill sample1
+ 4678* ls
+ 4679* ls -la
+ 4680* vi sample1.gc
+ 4681* make sample1
+ 4682* ./sample1
+ 4683* vi sample1.gc
+ 4684* vi run.sh 
+ 4685* sh run.sh
+ 4686  ps -ef | grep 
+ 4687  ps -ef | grep server
+ 4688  ps -ef | grep ckh0618
+ 4689  ps -ef | grep sample1
+ 4690  ps -ef | grep sample1 | wc -l
+ 4691  pkill sample1
+ 4692  ps -ef | grep sample1 | wc -l
+ 4693  ps -ef | grep sample1 | wc -l | grep -v sample1
+ 4694  ps -ef | grep sample1 | wc -l | grep -v grep
+ 4695  ps -ef | grep sample1 | grep -v gre
+ 4696  ps -ef | grep sample1 | grep -v gre | wc -l
+ 4697  ls -al
+ 4698  cd
+ 4699  ls
+ 4700  cd workspace
+ 4701  ls
+ 4702  cd pbt
+ 4703  ls
+ 4704  ls -al
+ 4705  vi run.sh 
+ 4706  vi run.sh
+ 4707  sh run.sh
+ 4708  ps -ef | grep sample1 | grep -v gre | wc -l
+ 4709  pkill sample1
+ 4710  ls
+ 4711  vi sample1.gc
+ 4712  make sample1
+ 4713  ./sample1
+ 4714  vi sample1.gc
+ 4715  make sample1
+ 4716  ./sample1
+ 4717  sh run.sh
+ 4718  vi sample1.gc
+ 4719  pkill sample1
+ 4720  top
+ 4721  ls
+ 4722  ls -al
+ 4723  vi run.sh 
+ 4724  vi sample1.gc
+ 4725  vi run.sh 
+ 4726  sh run.sh 
+ 4727  pkill sample1
+ 4728  ps -ef | grep sample1
+ 4729  ls -al
+ 4730  vi run.sh
+ 4731  make sample1
+ 4732  sh run.sh
+ 4733  kll
+ 4734  lll
+ 4735  ls -al
+ 4736  pkill sample1
+ 4737  ls -al
+ 4738  vi sample1.gc
+ 4739  sh run.sh 
+ 4740  ps -ef | grep sample1
+ 4741  pkill sample1
+ 4742  ls
+ 4743  ls a-l
+ 4744  pwd
+ 4745  cd ..
+ 4746  mkdir pbt_OKT
+ 4747  cd *T
+ 4748  ls
+ 4749  cd pbt_OKT
+ 4750  (cd ../pbt;tar -cf - .)|tar -xvf -
+ 4751  ls

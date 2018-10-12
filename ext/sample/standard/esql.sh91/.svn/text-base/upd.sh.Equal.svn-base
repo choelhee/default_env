@@ -1,0 +1,8 @@
+#!/bin/sh
+
+source updXX.sh.Equal
+
+run${GOLDILOCKS_LOCAL_CLUSTER_MEMBER}
+
+wait ; exit 0
+
