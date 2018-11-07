@@ -54,7 +54,7 @@ export GOLDILOCKS_SHARED_MEMORY_STATIC_KEY=542353
 export PATH=$GOLDILOCKS_HOME/bin:$PATH
 
 # for database utillity env-variable
-if [ -f "gsql" ]; then
+if [ -f "$GOLDILOCKS_HOME/bin/gsql" ]; then
 	GSQLBIN=gsql
 else
 	GSQLBIN=gsqlnet	
