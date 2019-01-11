@@ -19,6 +19,7 @@ if [ ${SHELL} = '/bin/bash' ]; then
 	fi
 fi
 
+export PS1="${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\n\$"
 export SVN_EDITOR=vim
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/lib64
 
@@ -75,8 +76,6 @@ export JAVA_HOME=`/usr/libexec/java_home -v 1.7`
 else
 export JAVA_HOME=$HOME/jdk1.6.0_27
 export JAVA5=$HOME/jdk1.5.0_22
-alias java4='source ~/java4'
-alias java5='source ~/java5'
 fi
 export PATH=$PATH:$JAVA_HOME/bin
 
