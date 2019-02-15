@@ -127,7 +127,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (auto-complete-clang-async auto-complete-clang auto-complete-c-headers spacemacs-theme))))
+    (xcscope auto-complete-clang-async auto-complete-clang auto-complete-c-headers spacemacs-theme))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -165,4 +165,19 @@
 (setq ac-show-menu-immediately-on-auto-complete t)
 ;; 모든 모드에서 auto-complete-mode를 사용합니다.
 (global-auto-complete-mode 1)
+
+
+(require 'xcscope)
+(define-key global-map [(control f2)]  'cscope-index-file)
+(define-key global-map [(control f3)]  'cscope-set-initial-directory)
+(define-key global-map [(control f4)]  'cscope-unset-initial-directory)
+(define-key global-map [(control f5)]  'cscope-find-this-symbol)
+(define-key global-map [(control f6)]  'cscope-find-global-definition)
+(define-key global-map [(control f7)]  'cscope-find-global-definition-no-prompting)
+(define-key global-map [(control f8)]  'cscope-pop-mark)
+(define-key global-map [(control f9)]  'cscope-prev-symbol)
+(define-key global-map [(control f10)] 'cscope-next-symbol)
+(define-key global-map [(meta f11)]    'cscope-display-buffer)
+(define-key global-map [(meta f12)]    'cscope-display-buffer-toggle)
+
 
