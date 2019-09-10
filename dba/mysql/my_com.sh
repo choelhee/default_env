@@ -11,7 +11,7 @@ OUT_DIR=out
 
 
 
-for sql_file in `ls create_user.sql  date_type.sql  etc.sql  numeric_type.sql  psm.sql  string_type.sql  table.sql`
+for sql_file in `ls sql/create_user.sql  sql/date_type.sql  sql/etc.sql  sql/numeric_type.sql  sql/psm.sql  sql/string_type.sql  sql/table.sql`
 do
     A_OUT=$OUT_DIR/`echo "$sql_file" | cut -d'.' -f1`_aurora.out
     A_OUT=$OUT_DIR/`echo "$sql_file" | cut -d'.' -f1`_aurora.out
