@@ -1,8 +1,10 @@
 
 # path , etc
-CHLEE_DIR=$HOME/.chlee
-if [ -d "$CHLEE_DIR" ]; then
-    export PATH=$PATH:$CHLEE_DIR/bin
+CHLEE_HOME=$HOME/.chlee
+if [ -d "$CHLEE_HOME" ]; then
+    export PATH=$PATH:$CHLEE_HOME/bin
+    export PATH=$PATH:$CHLEE_HOME/dba/goldilocks
+    export PATH=$PATH:$CHLEE_HOME/dba/mysql
 fi
 
 
