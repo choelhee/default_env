@@ -4,14 +4,21 @@
 #USER=test
 #PASSWORD=test
 
-HOST=bf-wallet-test.ctszbxmyc6nw.ap-northeast-2.rds.amazonaws.com
+# test
+#HOST=bf-wallet-test.ctszbxmyc6nw.ap-northeast-2.rds.amazonaws.com
+#PORT=3306
+#USER=root
+#PASSWORD="Softwiz@()"
+
+# dev
+HOST=wallet-dev-dbms-01.cbgbwoygubsk.ap-northeast-2.rds.amazonaws.com
 PORT=3306
 USER=root
-PASSWORD="Softwiz@()"
+PASSWORD="wldbking"
 
 
 
-CMD="mysql -h $HOST  -u $USER --password=\"$PASSWORD\" -v -v -f"
+CMD="mysql --comments -h $HOST  -u $USER --password=\"$PASSWORD\" -v -v -f"
 OUT_DIR=out
 SQL_FILE=$1
 

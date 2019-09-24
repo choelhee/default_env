@@ -1,9 +1,9 @@
 
-HOST=127.0.0.1
+HOST=wallet-dev-dbms-01.cbgbwoygubsk.ap-northeast-2.rds.amazonaws.com
 USER=root
-PASSWD="Softwiz@()"
+PASSWD="wldbking"
 PORT=3306
-DATABASE=CES_WALLET
+DATABASE=mysql
 DATE=`date '+%H%M%S'`
 BIN=mysqlpump
 LOG_FILE=log_${DATE}.sql
@@ -13,12 +13,13 @@ PARALLELISM="--single-transaction"
 CHARACTER_SET="--default-character-set=utf8"
 DEFINER="--skip-definer"
 
-CONNECT_OPT="-h $HOST -u $USER -p$PASSWD"
-DUMP_OBJECT_OPT="--databases $DATABASE --users --routines --triggers --events"
-DROP_OBJECT_OPT="--add-drop-database --add-drop-table --add-drop-user"
+CONNECT_OPT="-h $HOST -u $USER -p $PASSWD"
+#DUMP_OBJECT_OPT="--databases $DATABASE --users --routines --triggers --events"
+DUMP_OBJECT_OPT="--routines"
+DROP_OBJECT_OPT=""
 EXC_USER="--exclude-users=root,mysql.session,mysql.sys,repl,zabbix,backupuser"
 ETC_OPT="$PARALLELISM $CHARACTER_SET $DEFINER"
 
 CMD="$BIN $ETC_OPT $DUMP_OBJECT_OPT $DROP_OBJECT_OPT $EXC_USER $CONNECT_OPT --result-file=$SQL_FILE --log-error-file=$LOG_FILE"
 
-$CMD
+echo $CMD
