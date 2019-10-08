@@ -5,16 +5,16 @@
 #PASSWORD=test
 
 # test
-#HOST=bf-wallet-test.ctszbxmyc6nw.ap-northeast-2.rds.amazonaws.com
-#PORT=3306
-#USER=root
-#PASSWORD="Softwiz@()"
-
-# dev
-HOST=wallet-dev-dbms-01.cbgbwoygubsk.ap-northeast-2.rds.amazonaws.com
+HOST=wallet-test-dbms-01.ctszbxmyc6nw.ap-northeast-2.rds.amazonaws.com
 PORT=3306
 USER=root
 PASSWORD="wldbking"
+
+# dev
+#HOST=wallet-dev-dbms-01.cbgbwoygubsk.ap-northeast-2.rds.amazonaws.com
+#PORT=3306
+#USER=root
+#PASSWORD="wldbking"
 
 
 
