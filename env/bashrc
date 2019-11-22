@@ -15,7 +15,7 @@ set -o vi
 
 # for stop escaping when during tab key
 if [ ${SHELL} = '/bin/bash' ]; then
-	if [ ${BASH_VERSION:0:1} = 4 ]; then
+	if [ ${BASH_VERSION:0:1} -ge 4 ]; then
 
 		shopt -s direxpand
 	fi
