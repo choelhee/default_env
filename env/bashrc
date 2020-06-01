@@ -30,6 +30,9 @@ ulimit -c unlimited
 # alias
 alias p='python'
 
+# Git
+#export GIT_SSL_NO_VERIFY=0
+
 # GLIESE-SUNDB-GOLDILOCKS COMMON
 export PRODUCT_HOME=$HOME/workspace/sundb/product
 export PATH=/bin:/usr/bin:/usr/local/bin:/sbin:$HOME/bin:$PRODUCT_HOME/TestTool/Unit/dev/bin:$PATH

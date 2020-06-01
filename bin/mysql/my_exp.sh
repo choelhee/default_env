@@ -4,15 +4,15 @@
 # bash option
 shopt -s nocasematch
 
-HOST=wallet-dev-dbms-01.cbgbwoygubsk.ap-northeast-2.rds.amazonaws.com
-USER=root
-PASSWD="wldbking"
+HOST=bos-dev-db-02.cluster-cpukos9pjfzx.ap-northeast-2.rds.amazonaws.com
+USER=bos
+PASSWD=bos
 PORT=3306
-DATABASE=CES_WALLET
+DATABASE=BO
 DATE=`date '+%H%M%S'`
 BIN=mysqlpump
 LOG_FILE=dump_${DATE}.log
-SQL_FILE=ces_wallet.sql
+SQL_FILE=bo.sql
 NODATA=0
 
 

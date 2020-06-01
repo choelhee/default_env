@@ -1,4 +1,5 @@
 
+
 # mysqldump --add-drop-database --add-drop-table --add-drop-trigger --all-databases --routines --flush-privileges -h 127.0.0.1 -u root -p > user.sql
 
 # bash option
@@ -10,7 +11,7 @@ PASSWD="wldbking"
 PORT=3306
 DATABASE=CES_WALLET
 DATE=`date '+%H%M%S'`
-BIN=mysqlpump
+BIN=mysqldump
 LOG_FILE=dump_${DATE}.log
 SQL_FILE=ces_wallet.sql
 NODATA=0
