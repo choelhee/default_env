@@ -1,0 +1,10 @@
+[mysql]
+user=root
+password=iamroot
+socket=/home/chlee/mysql/tmp/mysql.sock
+
+default_character_set=utf8mb4
+no_auto_rehash
+show_warnings
+prompt=\u@\h:\d\_\R:\m:\\s>
+pager="less -n -i -F -X -E"

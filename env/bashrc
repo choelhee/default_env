@@ -102,3 +102,11 @@ export MSSQL_HOME=/opt/mssql
 export PATH=$PATH:/opt/mssql-tools/bin
 alias ms="sqlcmd -S localhost -U SA -P 'cjfl@1234'"
 
+# postgresql
+export POSTGRES_HOME=/home/chlee/workspace/postgresql-12.3
+export PGLIB=$POSTGRES_HOME/lib
+export PGDATA=$POSTGRES_HOME/data
+export MANPATH=$MANPATH:$POSTGRES_HOME/man
+export PATH=$POSTGRES_HOME/bin:$PATH:$HOME/.local/bin:$HOME/bin
+ulimit -n 65535
+

@@ -1,0 +1,98 @@
+
+[mysqld]
+
+server-id       = 1
+user            = chlee
+port            = 3306
+basedir         = /home/chlee/mysql
+datadir         = /home/chlee/mysql/data
+tmpdir          = /home/chlee/mysql/tmp
+socket          = /home/chlee/mysql/tmp/mysql.sock
+
+character-set-server    = utf8mb4
+collation-server        = utf8mb4_0900_ai_ci
+default-storage-engine  = InnoDB
+skip-name-resolve
+skip-external-locking
+
+default_authentication_plugin   = mysql_native_password
+
+event-scheduler = OFF
+sysdate-is-now
+
+back_log                = 1024
+max_connections         = 600
+max_user_connections    = 600
+max_connect_errors      = 999999
+max_error_count         = 1024
+thread_cache_size       = 50
+table_open_cache        = 4000
+interactive_timeout     = 86400
+wait_timeout            = 31536000
+
+max_allowed_packet      = 64M
+max_heap_table_size     = 64M
+tmp_table_size          = 512K
+
+sort_buffer_size        = 128k
+join_buffer_size        = 128k
+read_buffer_size        = 128k
+read_rnd_buffer_size    = 128k
+
+group_concat_max_len    = 1024
+transaction-isolation   = READ-COMMITTED
+
+innodb_stats_on_metadata    = 1
+innodb_max_dirty_pages_pct  = 90
+innodb_adaptive_hash_index  = 1
+innodb_strict_mode          = 0
+innodb_io_capacity          = 600
+innodb_write_io_threads     = 4
+innodb_read_io_threads      = 4
+innodb_autoinc_lock_mode    = 1
+innodb_adaptive_flushing    = 1
+innodb_change_buffering     = inserts
+innodb_old_blocks_time      = 500
+
+innodb_buffer_pool_size         = 128M
+innodb_file_per_table           = 1
+innodb_data_file_path           = ibdata1:10M:autoextend
+innodb_autoextend_increment     = 100
+innodb_log_buffer_size          = 16M
+innodb_log_file_size            = 1024M
+innodb_log_files_in_group       = 2
+innodb_thread_concurrency       = 0
+innodb_lock_wait_timeout        = 60
+innodb_flush_log_at_trx_commit  = 1
+innodb_force_recovery           = 0
+innodb_flush_method             = O_DIRECT
+innodb_doublewrite              = 1
+innodb_sync_spin_loops          = 20
+innodb_table_locks              = 1
+innodb_thread_sleep_delay       = 1000
+innodb_max_purge_lag            = 0
+innodb_commit_concurrency       = 0
+innodb_concurrency_tickets      = 500
+
+
+pid-file                    = /home/chlee/mysql/tmp/mysqld.pid
+log-error                   = /home/chlee/mysql/log/mysqld.log
+general_log                 = 1
+general_log_file            = /home/chlee/mysql/log/general.log
+log_slow_admin_statements   = on
+slow_query_log              = 1
+long_query_time             = 1
+slow_query_log_file         = /home/chlee/mysql/log/slow_query.log
+
+log_bin                         = /home/chlee/mysql/data/binlog
+binlog_cache_size               = 128k
+max_binlog_size                 = 1G
+expire_logs_days                = 14
+log_bin_trust_function_creators = 1
+sync_binlog                     = 1
+
+
+
+validate_password_policy    = LOW
+validate_password_length    = 4
+

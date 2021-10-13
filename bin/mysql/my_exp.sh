@@ -1,52 +1,45 @@
 
-# mysqldump --add-drop-database --add-drop-table --add-drop-trigger --all-databases --routines --flush-privileges -h 127.0.0.1 -u root -p > user.sql
 
-# bash option
-shopt -s nocasematch
+filelist="
+BNC_TRADE.csv
+BBT_TRADE.csv
+BMX_TRADE.csv
+OKEX_TRADE.csv
+BBT_INSTRUMENT.csv
+BNC_INSTRUMENT.csv
+BMX_INSTRUMENT.csv
+OKEX_INSTRUMENT.csv
+SW_PRICE.csv
+"
 
-HOST=bos-dev-db-02.cluster-cpukos9pjfzx.ap-northeast-2.rds.amazonaws.com
-USER=bos
-PASSWD=bos
-PORT=3306
-DATABASE=BO
-DATE=`date '+%H%M%S'`
-BIN=mysqlpump
-LOG_FILE=dump_${DATE}.log
-SQL_FILE=bo.sql
-NODATA=0
+file_path=/home/bos/backup
+mysqlsh_path=$HOME/mysqlsh/bin
 
+HOST=127.0.0.1
+USER=root
+PASSWD=bigdataking
 
-if [ "$#" -eq 1 ];
+CMD="$mysqlsh_path/mysqlsh -h $HOST -u$USER -p$PASSWD --mysql"
+
+function exportAll()
+{
+   for filename in $filelist
+   do
+      exportTable $filename
+   done
+}
+
+function exportTable()
+{
+   filename=$1
+   echo "export ${filename%.*}"  
+   time $CMD -e "util.exportTable('mytradinginfo.${filename%.*}' , 'file://$file_path/$filename' , {dialect: 'csv-unix'})"
+}
+
+if [ "$#" = 0 ];
 then
-    if [ "$1" = "no-data" ] || [ "$1" = "nodata" ];
-    then
-        PARALLELISM="--default-parallelism=1 --set-gtid-purged=off --skip-dump-rows"
-        NODATA=1
-    else
-        echo "unknown options. [$1]"
-        exit -1
-    fi
-
-else
-    PARALLELISM="--default-parallelism=1 --set-gtid-purged=off"
-fi
-
-CHARACTER_SET="--default-character-set=utf8"
-CONNECT_OPT="-h $HOST -u $USER -p$PASSWD"
-DUMP_OBJECT_OPT="--databases $DATABASE --users --routines --triggers --events"
-#DUMP_OBJECT_OPT="--routines"
-DROP_OBJECT_OPT="--add-drop-database --add-drop-table --add-drop-user"
-EXC_USER="--exclude-users=rdsadmin,root,mysql.session,mysql.sys,repl,zabbix,backupuser"
-ETC_OPT="$PARALLELISM $CHARACTER_SET $DEFINER"
-
-
-
-CMD="$BIN $ETC_OPT $DUMP_OBJECT_OPT $DROP_OBJECT_OPT $EXC_USER $CONNECT_OPT --result-file=$SQL_FILE"
-
-$CMD
-
-if [ $? = 0 ] && [ $NODATA -eq 1 ] ;
+   exportAll
+elif [ "$#" = 1 ];
 then
-    sed 's/AUTO_INCREMENT=[0-9]\+/AUTO_INCREMENT=0/g' $SQL_FILE > ${SQL_FILE}_sed
-    mv ${SQL_FILE}_sed $SQL_FILE
+   exportTable $1
 fi

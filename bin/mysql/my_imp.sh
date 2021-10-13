@@ -1,30 +1,53 @@
 
-#HOST=127.0.0.1
-#PORT=3306
-#USER=test
-#PASSWORD=test
+filelist="
+BNC_TRADE.*
+BBT_TRADE.*
+BMX_TRADE.*
+OKEX_TRADE.*
+BBT_INSTRUMENT.*
+BNC_INSTRUMENT.*
+BMX_INSTRUMENT.*
+OKEX_INSTRUMENT.*
+SW_PRICE.*
+"
 
-# test
-HOST=wallet-test-dbms-01.ctszbxmyc6nw.ap-northeast-2.rds.amazonaws.com
-PORT=3306
+HOST=babaglobal-db.cpukos9pjfzx.ap-northeast-2.rds.amazonaws.com
 USER=root
-PASSWORD="wldbking"
+PASSWD=bigdataking
+THREADS=2
 
-# dev
-#HOST=wallet-dev-dbms-01.cbgbwoygubsk.ap-northeast-2.rds.amazonaws.com
-#PORT=3306
-#USER=root
-#PASSWORD="wldbking"
+file_path=/home/bos/backup
+DATABASE=mti2
 
+CMD="$HOME/mysqlsh/bin/mysqlsh -h $HOST -u$USER -p$PASSWD --mysql"
 
+function importAll()
+{
+   for filename in `ls $filelist`
+   do
+      importTable $file_path/$filename
+   done
+}
 
-CMD="mysql --comments -h $HOST  -u $USER --password=\"$PASSWORD\" -v -v -f"
-OUT_DIR=out
-SQL_FILE=$1
+function importTable()
+{
+   if [ -f "$1" ];
+   then
+      basename=$(basename -- $1)
+      filename=${basename%.*}
 
-OUT=`echo "$SQL_FILE" | cut -d'.' -f1`_mysql.out
+      echo "import $filename"  
+      time $CMD -e "util.importTable('$1', {schema: '$DATABASE', table: '${filename%.*}', dialect: 'csv-unix', skipRows: 0, showProgress: true, fieldsOptionallyEnclosed: true, fieldsTerminatedBy: ',', linesTerminatedBy: '\n',fieldsEnclosedBy: '\"',threads: $THREADS , bytesPerChunk: '200M'})"
+   else
+      echo "$1 does not exists."
+   fi
 
-script -c "$CMD < $SQL_FILE " > ${OUT}_
-sed -e s///g ${OUT}_ > ${OUT}
-rm ${OUT}_  typescript
+}
 
+if [ "$#" = 0 ];
+then
+   importAll
+elif [ "$#" = 1 ];
+then
+   importTable $1
+fi
